@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Plugin.Mail", "06_Plugin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.DataAccess.DataModel", "04_DataAccess\CL.DataAccess.DataModel\CL.DataAccess.DataModel.csproj", "{0F7F1D8F-4D69-4D28-89E0-8F0B67F14402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Web.MVC", "01_Presentation\CL.Web.MVC\CL.Web.MVC.csproj", "{A0676043-ADCA-4961-BA43-D7E2D7C60584}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,11 +43,16 @@ Global
 		{0F7F1D8F-4D69-4D28-89E0-8F0B67F14402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F7F1D8F-4D69-4D28-89E0-8F0B67F14402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F7F1D8F-4D69-4D28-89E0-8F0B67F14402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0676043-ADCA-4961-BA43-D7E2D7C60584}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0676043-ADCA-4961-BA43-D7E2D7C60584}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0676043-ADCA-4961-BA43-D7E2D7C60584}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0676043-ADCA-4961-BA43-D7E2D7C60584}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{A0676043-ADCA-4961-BA43-D7E2D7C60584} = {29CB356C-4D16-4222-BB65-1CF14DAF0D09}
 		{0F7F1D8F-4D69-4D28-89E0-8F0B67F14402} = {4C21BC18-0D88-486A-BC2C-51FF8710A281}
 		{729B5FE8-2C30-4777-9131-710938623B6B} = {D69B0DCB-8434-4A2C-A75C-EC175EAA265C}
 		{05A083CB-245E-47A4-A17E-07D8C74C4BDC} = {124A409A-0DA3-4528-80AD-31B16C0BAC0A}
