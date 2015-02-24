@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Presentation", "01_Presentation", "{29CB356C-4D16-4222-BB65-1CF14DAF0D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Services", "02_Services", "{632319E1-E160-4169-8555-A59448435C7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03_Business", "03_Business", "{FA8AC2E6-A319-4F04-A90B-30211CE9ECB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04_DataAccess", "04_DataAccess", "{4C21BC18-0D88-486A-BC2C-51FF8710A281}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05_CrossDomain", "05_CrossDomain", "{D69B0DCB-8434-4A2C-A75C-EC175EAA265C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06_Plugins", "06_Plugins", "{124A409A-0DA3-4528-80AD-31B16C0BAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.CrossDomain.Extensions", "05_CrossDomain\CL.CrossDomain.Extensions\CL.CrossDomain.Extensions.csproj", "{729B5FE8-2C30-4777-9131-710938623B6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{729B5FE8-2C30-4777-9131-710938623B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729B5FE8-2C30-4777-9131-710938623B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729B5FE8-2C30-4777-9131-710938623B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729B5FE8-2C30-4777-9131-710938623B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{729B5FE8-2C30-4777-9131-710938623B6B} = {D69B0DCB-8434-4A2C-A75C-EC175EAA265C}
+	EndGlobalSection
+EndGlobal
