@@ -18,6 +18,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.CrossDomain.Extensions", "05_CrossDomain\CL.CrossDomain.Extensions\CL.CrossDomain.Extensions.csproj", "{729B5FE8-2C30-4777-9131-710938623B6B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07_Documents", "07_Documents", "{56B44241-8B82-470F-AC02-9CB264904EE5}"
+	ProjectSection(SolutionItems) = preProject
+		07_Documents\项目说明文档.docx = 07_Documents\项目说明文档.docx
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.Plugin.Mail", "06_Plugins\CL.Plugin.Mail\CL.Plugin.Mail.csproj", "{05A083CB-245E-47A4-A17E-07D8C74C4BDC}"
 EndProject
@@ -32,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.CrossDomain.Utils", "05_CrossDomain\CL.CrossDomain.Utils\CL.CrossDomain.Utils.csproj", "{C2FDB71C-F465-400C-899B-6951FE96BCCD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CL.CrossDomain.DomainModel", "05_CrossDomain\CL.CrossDomain.DomainModel\CL.CrossDomain.DomainModel.csproj", "{749E5B76-ABE1-49D9-8CBF-FADCB1FA65C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08_Tests", "08_Tests", "{DA1937A2-A4FD-4DE8-B12C-472009D7D960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
