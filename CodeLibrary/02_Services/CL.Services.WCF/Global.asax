@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="PT.Ayl.Services.Global" Language="C#" %>
