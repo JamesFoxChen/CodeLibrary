@@ -1,0 +1,12 @@
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\CL.Framework.Extensions.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\CL.Framework.Extensions.pdb
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\CL.Framework.Utils.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\NPOI.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\Newtonsoft.Json.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\CL.Framework.Utils.pdb
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\NPOI.xml
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\Newtonsoft.Json.xml
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.csprojResolveAssemblyReference.cache
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.dll
+D:\CodeLibarary\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.pdb
