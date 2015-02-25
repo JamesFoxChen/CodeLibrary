@@ -107,13 +107,13 @@
       <Project>{749e5b76-abe1-49d9-8cbf-fadcb1fa65c2}</Project>
       <Name>CL.CrossDomain.DomainModel</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\05_CrossDomain\CL.CrossDomain.Utils\CL.CrossDomain.Utils.csproj">
-      <Project>{c2fdb71c-f465-400c-899b-6951fe96bccd}</Project>
-      <Name>CL.CrossDomain.Utils</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Extensions\CL.Framework.Extensions.csproj">
       <Project>{a5656e81-32e6-4636-a384-82dd25f00651}</Project>
       <Name>CL.Framework.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
+      <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
+      <Name>CL.Framework.Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

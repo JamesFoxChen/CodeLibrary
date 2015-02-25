@@ -4,7 +4,7 @@ using System;
 using System.Reflection;
 using System.Web;
 using CL.CrossDomain.DomainModel;
-using CL.CrossDomain.Utils;
+using CL.Framework.Utils;
 
 
 namespace CL.Services.WCF
