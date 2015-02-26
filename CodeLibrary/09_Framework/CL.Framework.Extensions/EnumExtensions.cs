@@ -4,6 +4,8 @@ using System.ComponentModel;
 
 public static class EnumExtensions
 {
+    //just test
+    
     /// <summary>
     /// 获取枚举值的描述信息
     /// </summary>
