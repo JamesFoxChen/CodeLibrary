@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\DateTimeUtil.cs" />
     <Compile Include="Common\EnumUtil.cs" />
     <Compile Include="Common\JsonUtil.cs" />
     <Compile Include="Common\RegexUtil.cs" />
