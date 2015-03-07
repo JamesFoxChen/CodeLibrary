@@ -34,7 +34,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </coveredLifelines>
             <finish>
@@ -74,7 +74,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -84,7 +84,7 @@
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -94,7 +94,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -104,7 +104,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -114,7 +114,7 @@
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -132,7 +132,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -142,7 +142,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </coveredLifelines>
             <finish>
@@ -182,27 +182,27 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
-          <messageOccurrenceSpecification
-            Id="647315fc-852a-4d17-b98e-e2943453b591"
-            name="MessageOccurrenceSpecification24">
-            <covered>
-              <lifelineMoniker
-                Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
-                LastKnownLocation="CL.Model.UML.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
             Id="4ee8d5fd-cbc9-4e1f-8f0f-097e058b339c"
             name="MessageOccurrenceSpecification23">
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="647315fc-852a-4d17-b98e-e2943453b591"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="83fdc165-d469-4786-8669-9c37978c2eee"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -212,7 +212,7 @@
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -222,7 +222,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -240,13 +240,13 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <behaviorExecutionSpecification
-            Id="cfd16cfa-6306-4bd9-9d8d-e6364212c664"
-            name="BehaviorExecutionSpecification8">
+            Id="14228b70-b569-4701-8032-05a9722e9a97"
+            name="BehaviorExecutionSpecification13">
             <coveredLifelines>
               <lifelineMoniker
                 Id="7466dfab-d2cb-49ac-99ee-8e0a2fa67c9e"
@@ -255,34 +255,30 @@
             </coveredLifelines>
             <finish>
               <executionOccurrenceSpecificationMoniker
-                Id="38cc4399-943f-461c-b785-db2ec43707f2"
-                LastKnownName="ExecutionOccurrenceSpecification16"
+                Id="ee285a70-960a-4844-ac92-18919bd2173b"
+                LastKnownName="ExecutionOccurrenceSpecification26"
                 LastKnownLocation="CL.Model.UML.uml" />
             </finish>
             <start>
               <executionOccurrenceSpecificationMoniker
-                Id="60bcf9dc-b194-484e-803e-a65592e8287b"
-                LastKnownName="ExecutionOccurrenceSpecification15"
+                Id="65ffe0aa-a85e-41b8-8f5a-0d726eaffca7"
+                LastKnownName="ExecutionOccurrenceSpecification25"
                 LastKnownLocation="CL.Model.UML.uml" />
             </start>
             <nestedOccurrences>
               <messageOccurrenceSpecificationMoniker
-                Id="f8de575e-0a81-4c5f-bc8d-19669e49e8cc"
-                LastKnownName="MessageOccurrenceSpecification28"
-                LastKnownLocation="CL.Model.UML.uml" />
-              <messageOccurrenceSpecificationMoniker
-                Id="ad036bbd-9d97-4f50-8a58-b08a2363c9fc"
-                LastKnownName="MessageOccurrenceSpecification29"
+                Id="9ab7f6eb-e119-4b3c-b84b-2ee88fcf402f"
+                LastKnownName="MessageOccurrenceSpecification42"
                 LastKnownLocation="CL.Model.UML.uml" />
             </nestedOccurrences>
           </behaviorExecutionSpecification>
           <executionOccurrenceSpecification
-            Id="60bcf9dc-b194-484e-803e-a65592e8287b"
-            name="ExecutionOccurrenceSpecification15">
+            Id="65ffe0aa-a85e-41b8-8f5a-0d726eaffca7"
+            name="ExecutionOccurrenceSpecification25">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="1294f684-3c72-4904-9773-774684ecdbf5"
+                  Id="efc70d84-831a-407b-9d3e-14f7cb6d5287"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="CL.Model.UML.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
@@ -295,18 +291,8 @@
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="d4efdcc9-3649-4066-8393-1414d7aca6a0"
-            name="MessageOccurrenceSpecification27">
-            <covered>
-              <lifelineMoniker
-                Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
-                LastKnownLocation="CL.Model.UML.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
-            Id="f8de575e-0a81-4c5f-bc8d-19669e49e8cc"
-            name="MessageOccurrenceSpecification28">
+            Id="9ab7f6eb-e119-4b3c-b84b-2ee88fcf402f"
+            name="MessageOccurrenceSpecification42">
             <covered>
               <lifelineMoniker
                 Id="7466dfab-d2cb-49ac-99ee-8e0a2fa67c9e"
@@ -315,32 +301,22 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="873dd268-e24e-4d2c-b7ef-feb5ba96e8b9"
-            name="MessageOccurrenceSpecification30">
+            Id="4d66fdc7-8e33-4590-841f-44e8cdea61e6"
+            name="MessageOccurrenceSpecification41">
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
-                LastKnownLocation="CL.Model.UML.uml" />
-            </covered>
-          </messageOccurrenceSpecification>
-          <messageOccurrenceSpecification
-            Id="ad036bbd-9d97-4f50-8a58-b08a2363c9fc"
-            name="MessageOccurrenceSpecification29">
-            <covered>
-              <lifelineMoniker
-                Id="7466dfab-d2cb-49ac-99ee-8e0a2fa67c9e"
-                LastKnownName="支付接口"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
           <executionOccurrenceSpecification
-            Id="38cc4399-943f-461c-b785-db2ec43707f2"
-            name="ExecutionOccurrenceSpecification16">
+            Id="ee285a70-960a-4844-ac92-18919bd2173b"
+            name="ExecutionOccurrenceSpecification26">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="53f9c8a7-f41d-4cc0-ba82-af04b351b7d8"
+                  Id="222a5a72-332b-45cf-aa34-d597c0124e01"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="CL.Model.UML.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
@@ -358,7 +334,7 @@
             <coveredLifelines>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </coveredLifelines>
             <finish>
@@ -398,7 +374,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -418,7 +394,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -449,8 +425,12 @@
                 LastKnownName="MessageOccurrenceSpecification38"
                 LastKnownLocation="CL.Model.UML.uml" />
               <messageOccurrenceSpecificationMoniker
-                Id="42393391-88f5-45a1-a446-5aaa596fb509"
-                LastKnownName="MessageOccurrenceSpecification39"
+                Id="0a95a778-ce47-431e-85fe-6b5d0417dc31"
+                LastKnownName="MessageOccurrenceSpecification43"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f4e8ba7d-7cdf-4dde-8bbf-cf2735037894"
+                LastKnownName="MessageOccurrenceSpecification47"
                 LastKnownLocation="CL.Model.UML.uml" />
             </nestedOccurrences>
           </behaviorExecutionSpecification>
@@ -478,7 +458,7 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
@@ -506,45 +486,45 @@
             <covered>
               <lifelineMoniker
                 Id="83fdc165-d469-4786-8669-9c37978c2eee"
-                LastKnownName="电商"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <behaviorExecutionSpecification
-            Id="3048194e-d8d1-4073-9580-08327f07aa30"
-            name="BehaviorExecutionSpecification12">
+            Id="41814dfe-9c5a-4931-a4bc-0e0ae30c7796"
+            name="BehaviorExecutionSpecification14">
             <coveredLifelines>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </coveredLifelines>
             <finish>
               <executionOccurrenceSpecificationMoniker
-                Id="a26f48a5-73d4-44cc-a55d-ad30d624cf3c"
-                LastKnownName="ExecutionOccurrenceSpecification24"
+                Id="688a9a83-b08b-4eb8-9388-e2392b54bb69"
+                LastKnownName="ExecutionOccurrenceSpecification28"
                 LastKnownLocation="CL.Model.UML.uml" />
             </finish>
             <start>
               <executionOccurrenceSpecificationMoniker
-                Id="de17be60-8d29-42bd-b4ad-61e9ae14a6d2"
-                LastKnownName="ExecutionOccurrenceSpecification23"
+                Id="2cd6e5e4-d2b0-46d4-b2d2-257d53308649"
+                LastKnownName="ExecutionOccurrenceSpecification27"
                 LastKnownLocation="CL.Model.UML.uml" />
             </start>
             <nestedOccurrences>
               <messageOccurrenceSpecificationMoniker
-                Id="c0dfb4be-8bc7-46d4-8804-9dbcce5cc2ea"
-                LastKnownName="MessageOccurrenceSpecification40"
+                Id="dbcc31c1-f78f-42a3-b2e5-eefb83dc0825"
+                LastKnownName="MessageOccurrenceSpecification44"
                 LastKnownLocation="CL.Model.UML.uml" />
             </nestedOccurrences>
           </behaviorExecutionSpecification>
           <executionOccurrenceSpecification
-            Id="de17be60-8d29-42bd-b4ad-61e9ae14a6d2"
-            name="ExecutionOccurrenceSpecification23">
+            Id="2cd6e5e4-d2b0-46d4-b2d2-257d53308649"
+            name="ExecutionOccurrenceSpecification27">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="75b47ea2-84b9-4e06-9d83-156a8b265b46"
+                  Id="1194bc88-e06d-4f8f-856b-8ade238153ab"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="CL.Model.UML.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
@@ -552,13 +532,13 @@
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="42393391-88f5-45a1-a446-5aaa596fb509"
-            name="MessageOccurrenceSpecification39">
+            Id="0a95a778-ce47-431e-85fe-6b5d0417dc31"
+            name="MessageOccurrenceSpecification43">
             <covered>
               <lifelineMoniker
                 Id="b475815d-3e8f-4318-8374-2f2ec314dfcc"
@@ -567,15 +547,99 @@
             </covered>
           </messageOccurrenceSpecification>
           <messageOccurrenceSpecification
-            Id="c0dfb4be-8bc7-46d4-8804-9dbcce5cc2ea"
-            name="MessageOccurrenceSpecification40">
+            Id="dbcc31c1-f78f-42a3-b2e5-eefb83dc0825"
+            name="MessageOccurrenceSpecification44">
             <covered>
               <lifelineMoniker
                 Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                LastKnownName="会员"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="94311fed-40e2-492f-b3ee-9cedde5604e7"
+            name="BehaviorExecutionSpecification16">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="83fdc165-d469-4786-8669-9c37978c2eee"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="8722846b-edd7-473d-b64d-366c6c5fc4da"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9e5c7fa8-ab2f-43d2-8f7f-78b6fd743c22"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ec8ef63-8da2-4cf0-a4cf-be60dbd226e6"
+                LastKnownName="MessageOccurrenceSpecification48"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9e5c7fa8-ab2f-43d2-8f7f-78b6fd743c22"
+            name="ExecutionOccurrenceSpecification31">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="021fed9f-57d8-46c8-ac68-72d2b1037001"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="83fdc165-d469-4786-8669-9c37978c2eee"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f4e8ba7d-7cdf-4dde-8bbf-cf2735037894"
+            name="MessageOccurrenceSpecification47">
+            <covered>
+              <lifelineMoniker
+                Id="b475815d-3e8f-4318-8374-2f2ec314dfcc"
+                LastKnownName="物流"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="4ec8ef63-8da2-4cf0-a4cf-be60dbd226e6"
+            name="MessageOccurrenceSpecification48">
+            <covered>
+              <lifelineMoniker
+                Id="83fdc165-d469-4786-8669-9c37978c2eee"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="688a9a83-b08b-4eb8-9388-e2392b54bb69"
+            name="ExecutionOccurrenceSpecification28">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4497de2a-ac65-424f-abc1-d8e9cd2c0edd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
           <executionOccurrenceSpecification
             Id="e8aedf4d-7be3-4f15-9ac1-3d6bccb0763f"
             name="ExecutionOccurrenceSpecification22">
@@ -595,20 +659,20 @@
             </covered>
           </executionOccurrenceSpecification>
           <executionOccurrenceSpecification
-            Id="a26f48a5-73d4-44cc-a55d-ad30d624cf3c"
-            name="ExecutionOccurrenceSpecification24">
+            Id="8722846b-edd7-473d-b64d-366c6c5fc4da"
+            name="ExecutionOccurrenceSpecification32">
             <event>
               <executionOccurrenceSpecificationReferencesEvent>
                 <executionEventMoniker
-                  Id="7cd447fa-a7d9-4b9e-bb59-e3243f1698f8"
+                  Id="c11d1174-6101-4d77-a14b-def45db83306"
                   LastKnownName="ExecutionEvent"
                   LastKnownLocation="CL.Model.UML.uml" />
               </executionOccurrenceSpecificationReferencesEvent>
             </event>
             <covered>
               <lifelineMoniker
-                Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-                LastKnownName="用户"
+                Id="83fdc165-d469-4786-8669-9c37978c2eee"
+                LastKnownName="电商平台"
                 LastKnownLocation="CL.Model.UML.uml" />
             </covered>
           </executionOccurrenceSpecification>
@@ -616,9 +680,9 @@
         <lifelines>
           <lifeline
             Id="3b801efb-e6e1-42aa-8837-e749d2beadf5"
-            name="用户"
+            name="会员"
             isActor="false"
-            lifelineDisplayName="‎用户‎">
+            lifelineDisplayName="‎会员‎">
             <topLevelOccurrences>
               <messageOccurrenceSpecificationMoniker
                 Id="9edc6b7f-84b0-4608-ae35-ac8609439d9f"
@@ -637,28 +701,24 @@
                 LastKnownName="MessageOccurrenceSpecification26"
                 LastKnownLocation="CL.Model.UML.uml" />
               <messageOccurrenceSpecificationMoniker
-                Id="d4efdcc9-3649-4066-8393-1414d7aca6a0"
-                LastKnownName="MessageOccurrenceSpecification27"
-                LastKnownLocation="CL.Model.UML.uml" />
-              <messageOccurrenceSpecificationMoniker
-                Id="873dd268-e24e-4d2c-b7ef-feb5ba96e8b9"
-                LastKnownName="MessageOccurrenceSpecification30"
+                Id="4d66fdc7-8e33-4590-841f-44e8cdea61e6"
+                LastKnownName="MessageOccurrenceSpecification41"
                 LastKnownLocation="CL.Model.UML.uml" />
               <executionOccurrenceSpecificationMoniker
-                Id="de17be60-8d29-42bd-b4ad-61e9ae14a6d2"
-                LastKnownName="ExecutionOccurrenceSpecification23"
+                Id="2cd6e5e4-d2b0-46d4-b2d2-257d53308649"
+                LastKnownName="ExecutionOccurrenceSpecification27"
                 LastKnownLocation="CL.Model.UML.uml" />
               <executionOccurrenceSpecificationMoniker
-                Id="a26f48a5-73d4-44cc-a55d-ad30d624cf3c"
-                LastKnownName="ExecutionOccurrenceSpecification24"
+                Id="688a9a83-b08b-4eb8-9388-e2392b54bb69"
+                LastKnownName="ExecutionOccurrenceSpecification28"
                 LastKnownLocation="CL.Model.UML.uml" />
             </topLevelOccurrences>
           </lifeline>
           <lifeline
             Id="83fdc165-d469-4786-8669-9c37978c2eee"
-            name="电商"
+            name="电商平台"
             isActor="false"
-            lifelineDisplayName="‎电商‎">
+            lifelineDisplayName="‎电商平台‎">
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker
                 Id="5ab61569-7740-491e-8c64-6320adcc52da"
@@ -684,6 +744,14 @@
                 Id="f2df39c2-8f49-47f6-9727-8850e5510d7b"
                 LastKnownName="ExecutionOccurrenceSpecification20"
                 LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9e5c7fa8-ab2f-43d2-8f7f-78b6fd743c22"
+                LastKnownName="ExecutionOccurrenceSpecification31"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="8722846b-edd7-473d-b64d-366c6c5fc4da"
+                LastKnownName="ExecutionOccurrenceSpecification32"
+                LastKnownLocation="CL.Model.UML.uml" />
             </topLevelOccurrences>
           </lifeline>
           <lifeline
@@ -693,12 +761,12 @@
             lifelineDisplayName="‎支付接口‎">
             <topLevelOccurrences>
               <executionOccurrenceSpecificationMoniker
-                Id="60bcf9dc-b194-484e-803e-a65592e8287b"
-                LastKnownName="ExecutionOccurrenceSpecification15"
+                Id="65ffe0aa-a85e-41b8-8f5a-0d726eaffca7"
+                LastKnownName="ExecutionOccurrenceSpecification25"
                 LastKnownLocation="CL.Model.UML.uml" />
               <executionOccurrenceSpecificationMoniker
-                Id="38cc4399-943f-461c-b785-db2ec43707f2"
-                LastKnownName="ExecutionOccurrenceSpecification16"
+                Id="ee285a70-960a-4844-ac92-18919bd2173b"
+                LastKnownName="ExecutionOccurrenceSpecification26"
                 LastKnownLocation="CL.Model.UML.uml" />
               <messageOccurrenceSpecificationMoniker
                 Id="f4c0a6f3-c7ce-4e62-99b4-d0023c189629"
@@ -801,40 +869,21 @@
             </receiveEvent>
           </message>
           <message
-            Id="bc91dc0d-80c2-43ff-8f05-7efe46854980"
+            Id="c3277e5c-35be-4b7f-80e2-8a1b1972205f"
             name="订单支付"
             messageKind="Complete"
-            messageSort="SynchCall"
+            messageSort="AsynchCall"
             createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="d4efdcc9-3649-4066-8393-1414d7aca6a0"
-                LastKnownName="MessageOccurrenceSpecification27"
+                Id="4d66fdc7-8e33-4590-841f-44e8cdea61e6"
+                LastKnownName="MessageOccurrenceSpecification41"
                 LastKnownLocation="CL.Model.UML.uml" />
             </sendEvent>
             <receiveEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="f8de575e-0a81-4c5f-bc8d-19669e49e8cc"
-                LastKnownName="MessageOccurrenceSpecification28"
-                LastKnownLocation="CL.Model.UML.uml" />
-            </receiveEvent>
-          </message>
-          <message
-            Id="77c3299d-1ce7-4207-9367-a74f986b5252"
-            name="支付确认"
-            messageKind="Complete"
-            messageSort="Reply"
-            createSelfMessage="false">
-            <sendEvent>
-              <messageOccurrenceSpecificationMoniker
-                Id="ad036bbd-9d97-4f50-8a58-b08a2363c9fc"
-                LastKnownName="MessageOccurrenceSpecification29"
-                LastKnownLocation="CL.Model.UML.uml" />
-            </sendEvent>
-            <receiveEvent>
-              <messageOccurrenceSpecificationMoniker
-                Id="873dd268-e24e-4d2c-b7ef-feb5ba96e8b9"
-                LastKnownName="MessageOccurrenceSpecification30"
+                Id="9ab7f6eb-e119-4b3c-b84b-2ee88fcf402f"
+                LastKnownName="MessageOccurrenceSpecification42"
                 LastKnownLocation="CL.Model.UML.uml" />
             </receiveEvent>
           </message>
@@ -877,21 +926,40 @@
             </receiveEvent>
           </message>
           <message
-            Id="3ec56893-dae0-4425-ac94-8d0ee4d73ee2"
-            name="送货"
+            Id="34ceefe9-5687-48c2-8931-c01e7120c5f0"
+            name="物流配送"
             messageKind="Complete"
             messageSort="AsynchCall"
             createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="42393391-88f5-45a1-a446-5aaa596fb509"
-                LastKnownName="MessageOccurrenceSpecification39"
+                Id="0a95a778-ce47-431e-85fe-6b5d0417dc31"
+                LastKnownName="MessageOccurrenceSpecification43"
                 LastKnownLocation="CL.Model.UML.uml" />
             </sendEvent>
             <receiveEvent>
               <messageOccurrenceSpecificationMoniker
-                Id="c0dfb4be-8bc7-46d4-8804-9dbcce5cc2ea"
-                LastKnownName="MessageOccurrenceSpecification40"
+                Id="dbcc31c1-f78f-42a3-b2e5-eefb83dc0825"
+                LastKnownName="MessageOccurrenceSpecification44"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="968abce3-b7e0-4409-bfbc-b05059a5b681"
+            name="配送完成"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f4e8ba7d-7cdf-4dde-8bbf-cf2735037894"
+                LastKnownName="MessageOccurrenceSpecification47"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="4ec8ef63-8da2-4cf0-a4cf-be60dbd226e6"
+                LastKnownName="MessageOccurrenceSpecification48"
                 LastKnownLocation="CL.Model.UML.uml" />
             </receiveEvent>
           </message>
@@ -920,16 +988,6 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <executionEvent
-        Id="1294f684-3c72-4904-9773-774684ecdbf5"
-        name="ExecutionEvent" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <executionEvent
-        Id="53f9c8a7-f41d-4cc0-ba82-af04b351b7d8"
-        name="ExecutionEvent" />
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <executionEvent
         Id="11db3432-aeb8-4222-8519-cc2d36168d5c"
         name="ExecutionEvent" />
     </packageHasNamedElement>
@@ -950,12 +1008,870 @@
     </packageHasNamedElement>
     <packageHasNamedElement>
       <executionEvent
-        Id="75b47ea2-84b9-4e06-9d83-156a8b265b46"
+        Id="efc70d84-831a-407b-9d3e-14f7cb6d5287"
         name="ExecutionEvent" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <executionEvent
-        Id="7cd447fa-a7d9-4b9e-bb59-e3243f1698f8"
+        Id="222a5a72-332b-45cf-aa34-d597c0124e01"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1194bc88-e06d-4f8f-856b-8ade238153ab"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4497de2a-ac65-424f-abc1-d8e9cd2c0edd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="021fed9f-57d8-46c8-ac68-72d2b1037001"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="c11d1174-6101-4d77-a14b-def45db83306"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="6deda9d1-3112-4043-9b3a-eaf2f4c68ab5"
+        name="物流配送流程"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="4b8d3071-9239-4c9b-9dca-af343e56ee5f"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="28b00ed7-53c9-41c2-8a37-58f176e5beb2"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="89a00328-ac34-4b19-89c9-4f9d3d04a1d5"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="531ca6b6-9065-4851-9338-e4d2a115835a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="2aacdf68-4562-4291-8d5e-4f41447c74ad"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="89a00328-ac34-4b19-89c9-4f9d3d04a1d5"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="f91c0acf-5002-48ff-a5b5-3f709a4b87ce"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0641565e-dbe0-49c2-8c6b-704099245a6c"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="531ca6b6-9065-4851-9338-e4d2a115835a"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="2aacdf68-4562-4291-8d5e-4f41447c74ad"
+            name="MessageOccurrenceSpecification3">
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="67b8c115-c809-451a-859c-34f9f6f25761"
+            name="MessageOccurrenceSpecification4">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="28b00ed7-53c9-41c2-8a37-58f176e5beb2"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="24e836e4-ba66-4e2a-bd25-f60ef328f46f"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="7ff5fd87-9110-4e40-a430-d4f03bbc5215"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7deb5e18-c81e-4c2b-ba89-88d4efe565b5"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="02f2cf67-17f5-4c03-823d-46dd429d4a93"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd688c2d-a58c-4596-9c80-5cab9849d9ca"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="3225994e-c5bf-4586-9e30-8d5ce27522a1"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="02f2cf67-17f5-4c03-823d-46dd429d4a93"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="aaf5ba80-fa7d-404a-b828-ba896e80f58d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1c2b349f-08aa-429e-b6f9-27632c09a233"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="cd688c2d-a58c-4596-9c80-5cab9849d9ca"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="153e007c-2474-4fde-8120-8c4bfd98041b"
+            name="BehaviorExecutionSpecification6">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="096c5ffd-fb43-4c7b-92d2-54a226fd6dde"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="a237a05f-8888-4269-979d-19b5efbc7b1c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="34607fc2-c156-4fe4-b462-79647e60cfef"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="a237a05f-8888-4269-979d-19b5efbc7b1c"
+            name="ExecutionOccurrenceSpecification11">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="8d478ea9-3454-48b7-8a8a-690cf6292b87"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="34607fc2-c156-4fe4-b462-79647e60cfef"
+            name="MessageOccurrenceSpecification16">
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="3225994e-c5bf-4586-9e30-8d5ce27522a1"
+            name="MessageOccurrenceSpecification15">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7deb5e18-c81e-4c2b-ba89-88d4efe565b5"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="731740cf-e8a7-47c2-95e8-179c23c0ef4d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="096c5ffd-fb43-4c7b-92d2-54a226fd6dde"
+            name="ExecutionOccurrenceSpecification12">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d5494682-c8fb-4702-af01-03afd241c322"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fb09f585-7ef2-4372-ae47-56adb9092d51"
+            name="BehaviorExecutionSpecification8">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7c031589-11be-4c65-a892-7fe628f0b09e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="377562e9-9a23-442a-bc8b-569038bed455"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="afb1f96d-32e8-4b0b-b1de-e6402d1ff85b"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5082b458-5b18-487f-b2ef-6e9bc273e850"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="377562e9-9a23-442a-bc8b-569038bed455"
+            name="ExecutionOccurrenceSpecification15">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="0298b8d9-5b38-4572-b26c-7f860463221e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="afb1f96d-32e8-4b0b-b1de-e6402d1ff85b"
+            name="MessageOccurrenceSpecification20">
+            <covered>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1811f092-ad18-4e5d-82bb-ef35a86ba326"
+            name="MessageOccurrenceSpecification19">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2c34fb3a-387f-4dba-ad0a-3cd89c0488c7"
+            name="BehaviorExecutionSpecification9">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="7c0dccfe-6d72-49db-bb3c-20ca69ca55d4"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="485cfe4c-f5fb-488d-a5d2-2b84462282f0"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ce60f4f-2d8c-46c1-843d-92c938b490a9"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="afa5586a-18d1-412a-b7b1-ad79e522dbbb"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="485cfe4c-f5fb-488d-a5d2-2b84462282f0"
+            name="ExecutionOccurrenceSpecification17">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fd8760c5-d17d-4fd5-89f2-0baaba973d81"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5082b458-5b18-487f-b2ef-6e9bc273e850"
+            name="MessageOccurrenceSpecification21">
+            <covered>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="1ce60f4f-2d8c-46c1-843d-92c938b490a9"
+            name="MessageOccurrenceSpecification22">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7c031589-11be-4c65-a892-7fe628f0b09e"
+            name="ExecutionOccurrenceSpecification16">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="2eb8f28c-dbc7-4336-b8ca-2536998a4dfd"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+                LastKnownName="会员"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="fafa2dc8-248c-4ad2-97a8-e66efa17cc89"
+            name="BehaviorExecutionSpecification10">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="4f9d0884-80e5-4aff-b83e-7f607daa6617"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="9ca43eee-2c3c-482e-9d86-56aafea7fde6"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="d6ec463c-ef49-40b0-9b7b-14f820f7cea7"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="9ca43eee-2c3c-482e-9d86-56aafea7fde6"
+            name="ExecutionOccurrenceSpecification19">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="3b1437aa-3798-45dd-8f71-67cb47c65ea1"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="afa5586a-18d1-412a-b7b1-ad79e522dbbb"
+            name="MessageOccurrenceSpecification23">
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d6ec463c-ef49-40b0-9b7b-14f820f7cea7"
+            name="MessageOccurrenceSpecification24">
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="7c0dccfe-6d72-49db-bb3c-20ca69ca55d4"
+            name="ExecutionOccurrenceSpecification18">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="27d7ad3a-430b-47dc-8636-3ed9b257ed6b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+                LastKnownName="电商平台"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="4f9d0884-80e5-4aff-b83e-7f607daa6617"
+            name="ExecutionOccurrenceSpecification20">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cc41f5f6-1fb7-465c-a129-ec233e917e52"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="CL.Model.UML.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+                LastKnownName="物流企业"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="fc489e43-44d3-4bb4-844b-efbff346e7d8"
+            name="电商平台"
+            isActor="false"
+            lifelineDisplayName="‎电商平台‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0641565e-dbe0-49c2-8c6b-704099245a6c"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="67b8c115-c809-451a-859c-34f9f6f25761"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="02f2cf67-17f5-4c03-823d-46dd429d4a93"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7deb5e18-c81e-4c2b-ba89-88d4efe565b5"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="1811f092-ad18-4e5d-82bb-ef35a86ba326"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="485cfe4c-f5fb-488d-a5d2-2b84462282f0"
+                LastKnownName="ExecutionOccurrenceSpecification17"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7c0dccfe-6d72-49db-bb3c-20ca69ca55d4"
+                LastKnownName="ExecutionOccurrenceSpecification18"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="667fb42a-958c-47fc-b884-63f2ff842d38"
+            name="物流企业"
+            isActor="false"
+            lifelineDisplayName="‎物流企业‎">
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="89a00328-ac34-4b19-89c9-4f9d3d04a1d5"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="28b00ed7-53c9-41c2-8a37-58f176e5beb2"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="a237a05f-8888-4269-979d-19b5efbc7b1c"
+                LastKnownName="ExecutionOccurrenceSpecification11"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="096c5ffd-fb43-4c7b-92d2-54a226fd6dde"
+                LastKnownName="ExecutionOccurrenceSpecification12"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="9ca43eee-2c3c-482e-9d86-56aafea7fde6"
+                LastKnownName="ExecutionOccurrenceSpecification19"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="4f9d0884-80e5-4aff-b83e-7f607daa6617"
+                LastKnownName="ExecutionOccurrenceSpecification20"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="529a0b5b-a8b8-4a4a-818a-8fa69b3877d3"
+            name="会员"
+            isActor="false"
+            lifelineDisplayName="‎会员‎">
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c2b349f-08aa-429e-b6f9-27632c09a233"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="377562e9-9a23-442a-bc8b-569038bed455"
+                LastKnownName="ExecutionOccurrenceSpecification15"
+                LastKnownLocation="CL.Model.UML.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="7c031589-11be-4c65-a892-7fe628f0b09e"
+                LastKnownName="ExecutionOccurrenceSpecification16"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="29c8bd79-ff51-437a-8906-4d89d6b02de2"
+            name="通知物流配送"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0641565e-dbe0-49c2-8c6b-704099245a6c"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="531ca6b6-9065-4851-9338-e4d2a115835a"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="b9a515c5-8679-4c55-b144-cc0450ec0e10"
+            name="确认/拒绝配送"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="2aacdf68-4562-4291-8d5e-4f41447c74ad"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="67b8c115-c809-451a-859c-34f9f6f25761"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="6fa9040b-7b35-4932-855b-f46f8c8e01f3"
+            name="获取物流配送信息"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1c2b349f-08aa-429e-b6f9-27632c09a233"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="cd688c2d-a58c-4596-9c80-5cab9849d9ca"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="9e024fa8-3ff5-4da8-8463-d5a3411b511b"
+            name="获取物流配送信息"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="3225994e-c5bf-4586-9e30-8d5ce27522a1"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="34607fc2-c156-4fe4-b462-79647e60cfef"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3c23b017-863d-4994-9d20-e8ed6b086ac1"
+            name="发送物流配送信息"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1811f092-ad18-4e5d-82bb-ef35a86ba326"
+                LastKnownName="MessageOccurrenceSpecification19"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="afb1f96d-32e8-4b0b-b1de-e6402d1ff85b"
+                LastKnownName="MessageOccurrenceSpecification20"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="a13027a5-4486-4d66-afd1-ed1f705ea827"
+            name="确认收货"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5082b458-5b18-487f-b2ef-6e9bc273e850"
+                LastKnownName="MessageOccurrenceSpecification21"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="1ce60f4f-2d8c-46c1-843d-92c938b490a9"
+                LastKnownName="MessageOccurrenceSpecification22"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="616ff069-5753-41e6-8daf-19adcf2fbca0"
+            name="配送完成"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="afa5586a-18d1-412a-b7b1-ad79e522dbbb"
+                LastKnownName="MessageOccurrenceSpecification23"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d6ec463c-ef49-40b0-9b7b-14f820f7cea7"
+                LastKnownName="MessageOccurrenceSpecification24"
+                LastKnownLocation="CL.Model.UML.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="f91c0acf-5002-48ff-a5b5-3f709a4b87ce"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="24e836e4-ba66-4e2a-bd25-f60ef328f46f"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="aaf5ba80-fa7d-404a-b828-ba896e80f58d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="731740cf-e8a7-47c2-95e8-179c23c0ef4d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="8d478ea9-3454-48b7-8a8a-690cf6292b87"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d5494682-c8fb-4702-af01-03afd241c322"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="0298b8d9-5b38-4572-b26c-7f860463221e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="2eb8f28c-dbc7-4336-b8ca-2536998a4dfd"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fd8760c5-d17d-4fd5-89f2-0baaba973d81"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="27d7ad3a-430b-47dc-8636-3ed9b257ed6b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="3b1437aa-3798-45dd-8f71-67cb47c65ea1"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cc41f5f6-1fb7-465c-a129-ec233e917e52"
         name="ExecutionEvent" />
     </packageHasNamedElement>
   </packagedElements>

@@ -22,12 +22,19 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
-    <Content Include="SequenceDiagram.sequencediagram">
+    <Content Include="会员购物流程.sequencediagram">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="SequenceDiagram.sequencediagram.layout">
+    <Content Include="会员购物流程.sequencediagram.layout">
       <SubType>Content</SubType>
-      <DependentUpon>SequenceDiagram.sequencediagram</DependentUpon>
+      <DependentUpon>会员购物流程.sequencediagram</DependentUpon>
+    </Content>
+    <Content Include="物流配送流程.sequencediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="物流配送流程.sequencediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>物流配送流程.sequencediagram</DependentUpon>
     </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\CL.Model.UML.uml">
