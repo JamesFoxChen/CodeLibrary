@@ -36,9 +36,17 @@
       <SubType>Content</SubType>
       <DependentUpon>物流配送流程.sequencediagram</DependentUpon>
     </Content>
+    <Content Include="类图\会员信息.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="类图\会员信息.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>类图\会员信息.classdiagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="ModelDefinition\CL.Model.UML.uml">
       <SubType>Content</SubType>
     </Content>
+    <Folder Include="类图" />
   </ItemGroup>
 </Project>

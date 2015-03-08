@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="会员信息">
+  <logicalClassDesignerModelMoniker Id="f9eab9d3-1ea0-4716-b860-8116b06919f4" />
+  <nestedChildShapes>
+    <classShape Id="a9e4924f-17bc-42d3-939c-90f6d280e936" absoluteBounds="1.125, 0.875, 1.5, 0.90234373509883881" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="336e36e4-75a2-41a9-865b-d5edd0abac16" LastKnownName="Class1" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="39eec22c-5fe8-4575-b5b1-9b30ca0c9e86" absoluteBounds="1.14, 1.2650000000000001, 1.4700000000000002, 0.2011718675494194" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="1f076273-c346-4089-af0b-8e81d9125456" absoluteBounds="1.14, 1.4761718675494193, 1.4700000000000002, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>
