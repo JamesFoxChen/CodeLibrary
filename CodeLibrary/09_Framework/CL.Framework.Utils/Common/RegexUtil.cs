@@ -228,4 +228,145 @@ namespace CL.Framework.Utils
         }
         #endregion
     }
+    
+    public static class ValidatorUtils
+	{
+		public static bool IsEmail(string source)
+		{
+			return Regex.IsMatch(source, "^[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})$", RegexOptions.IgnoreCase);
+		}
+		public static bool HasEmail(string source)
+		{
+			return Regex.IsMatch(source, "[A-Za-z0-9](([_\\.\\-]?[a-zA-Z0-9]+)*)@([A-Za-z0-9]+)(([\\.\\-]?[a-zA-Z0-9]+)*)\\.([A-Za-z]{2,})", RegexOptions.IgnoreCase);
+		}
+		public static bool IsUrl(string source)
+		{
+			return Regex.IsMatch(source, "^(((file|gopher|news|nntp|telnet|http|ftp|https|ftps|sftp)://)|(www\\.))+(([a-zA-Z0-9\\._-]+\\.[a-zA-Z]{2,6})|([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}))(/[a-zA-Z0-9\\&amp;%_\\./-~-]*)?$", RegexOptions.IgnoreCase);
+		}
+		public static bool HasUrl(string source)
+		{
+			return Regex.IsMatch(source, "(((file|gopher|news|nntp|telnet|http|ftp|https|ftps|sftp)://)|(www\\.))+(([a-zA-Z0-9\\._-]+\\.[a-zA-Z]{2,6})|([0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}))(/[a-zA-Z0-9\\&amp;%_\\./-~-]*)?", RegexOptions.IgnoreCase);
+		}
+		public static bool IsDateTime(string source)
+		{
+			bool result = false;
+			DateTime dateTime = default(DateTime);
+			if (DateTime.TryParse(source, out dateTime))
+			{
+				result = true;
+			}
+			return result;
+		}
+		public static bool IsMobile(string source)
+		{
+			return Regex.IsMatch(source, "^1[35]\\d{9}$", RegexOptions.IgnoreCase);
+		}
+		public static bool HasMobile(string source)
+		{
+			return Regex.IsMatch(source, "1[35]\\d{9}", RegexOptions.IgnoreCase);
+		}
+		public static bool IsIP(string source)
+		{
+			return Regex.IsMatch(source, "^(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])$", RegexOptions.IgnoreCase);
+		}
+		public static bool HasIP(string source)
+		{
+			return Regex.IsMatch(source, "(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])", RegexOptions.IgnoreCase);
+		}
+		public static bool IsIDCard(string Id)
+		{
+			if (Id.Length == 18)
+			{
+				return ValidatorUtils.IsIDCard18(Id);
+			}
+			return Id.Length == 15 && ValidatorUtils.IsIDCard15(Id);
+		}
+		public static bool IsIDCard18(string Id)
+		{
+			long num = 0L;
+			if (!long.TryParse(Id.Remove(17), out num) || (double)num < Math.Pow(10.0, 16.0) || !long.TryParse(Id.Replace('x', '0').Replace('X', '0'), out num))
+			{
+				return false;
+			}
+			string text = "11x22x35x44x53x12x23x36x45x54x13x31x37x46x61x14x32x41x50x62x15x33x42x51x63x21x34x43x52x64x65x71x81x82x91";
+			if (text.IndexOf(Id.Remove(2)) == -1)
+			{
+				return false;
+			}
+			string s = Id.Substring(6, 8).Insert(6, "-").Insert(4, "-");
+			DateTime dateTime = default(DateTime);
+			if (!DateTime.TryParse(s, out dateTime))
+			{
+				return false;
+			}
+			string[] array = "1,0,x,9,8,7,6,5,4,3,2".Split(new char[]
+			{
+				','
+			});
+			string[] array2 = "7,9,10,5,8,4,2,1,6,3,7,9,10,5,8,4,2".Split(new char[]
+			{
+				','
+			});
+			char[] array3 = Id.Remove(17).ToCharArray();
+			int num2 = 0;
+			for (int i = 0; i < 17; i++)
+			{
+				num2 += int.Parse(array2[i]) * int.Parse(array3[i].ToString());
+			}
+			int num3 = -1;
+			Math.DivRem(num2, 11, out num3);
+			return !(array[num3] != Id.Substring(17, 1).ToLower());
+		}
+		public static bool IsIDCard15(string Id)
+		{
+			long num = 0L;
+			if (!long.TryParse(Id, out num) || (double)num < Math.Pow(10.0, 14.0))
+			{
+				return false;
+			}
+			string text = "11x22x35x44x53x12x23x36x45x54x13x31x37x46x61x14x32x41x50x62x15x33x42x51x63x21x34x43x52x64x65x71x81x82x91";
+			if (text.IndexOf(Id.Remove(2)) == -1)
+			{
+				return false;
+			}
+			string s = Id.Substring(6, 6).Insert(4, "-").Insert(2, "-");
+			DateTime dateTime = default(DateTime);
+			return DateTime.TryParse(s, out dateTime);
+		}
+		public static bool IsInt(string source)
+		{
+			Regex regex = new Regex("^(-){0,1}\\d+$");
+			return regex.Match(source).Success && long.Parse(source) <= 2147483647L && long.Parse(source) >= -2147483648L;
+		}
+		public static bool IsDecimal(string source)
+		{
+			Regex regex = new Regex("[0].\\d{1,2}|[1]");
+			return regex.Match(source).Success && long.Parse(source) <= 2147483647L && long.Parse(source) >= -2147483648L;
+		}
+		public static bool IsLengthStr(string source, int begin, int end)
+		{
+			int length = Regex.Replace(source, "[^\\x00-\\xff]", "OK").Length;
+			return length > begin || length < end;
+		}
+		public static bool IsTel(string source)
+		{
+			return Regex.IsMatch(source, "^\\d{3,4}-?\\d{6,8}$", RegexOptions.IgnoreCase);
+		}
+		public static bool IsPostCode(string source)
+		{
+			return Regex.IsMatch(source, "^\\d{6}$", RegexOptions.IgnoreCase);
+		}
+		public static bool IsChinese(string source)
+		{
+			return Regex.IsMatch(source, "^[\\u4e00-\\u9fa5]+$", RegexOptions.IgnoreCase);
+		}
+		public static bool hasChinese(string source)
+		{
+			return Regex.IsMatch(source, "[\\u4e00-\\u9fa5]+", RegexOptions.IgnoreCase);
+		}
+		public static bool IsNormalChar(string source)
+		{
+			return Regex.IsMatch(source, "[\\w\\d_]+", RegexOptions.IgnoreCase);
+		}
+	}
 }
