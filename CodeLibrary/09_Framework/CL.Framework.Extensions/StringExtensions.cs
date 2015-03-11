@@ -469,4 +469,18 @@ public static class StringExtensions
     #endregion
     #endregion
 
+
+    #region 生成GUID
+    /// <summary>
+    /// 转换成Int32类型，转换失败抛异常
+    /// </summary>
+    /// <param name="source"></param>
+    /// <returns></returns>
+    public static long GenerateGUID(this string source)
+    {
+        byte[] value = Guid.NewGuid().ToByteArray();
+        return BitConverter.ToInt64(value, 0);
+    }
+
+    #endregion
 }
