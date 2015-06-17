@@ -349,5 +349,57 @@ namespace CL.Framework.Utils
         {
             o.GetType().GetMethod(methodName).Invoke(o, param);
         }
+        
+        #region Xml数据转换成实体类
+           /// <summary>
+        /// Xml数据转换成实体类
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <param name="doc"></param>
+        public static void FillEntityWithXml<T>(this T entity, XDocument doc) where T : class, new()
+        {
+            entity = entity ?? new T();
+            var root = doc.Root;
+
+            var props = entity.GetType().GetProperties();
+            foreach (var prop in props)
+            {
+                var propName = prop.Name;
+                if (root.Element(propName) != null)  //xml中的属性名
+                {
+                    //xml属性值赋给对象
+                    switch (prop.PropertyType.Name)
+                    {
+                        case "DateTime":
+                            prop.SetValue(entity, DateTimeHelper.GetDateTimeFromXml(root.Element(propName).Value), null);
+                            break;
+                        case "Boolean":
+                            if (propName == "FuncFlag")
+                            {
+                                prop.SetValue(entity, root.Element(propName).Value == "1", null);
+                            }
+                            else
+                            {
+                                goto default;
+                            }
+                            break;
+                        case "Int32":
+                            prop.SetValue(entity, int.Parse(root.Element(propName).Value), null);
+                            break;
+                        case "Int64":
+                            prop.SetValue(entity, long.Parse(root.Element(propName).Value), null);
+                            break;
+                        case "Double":
+                            prop.SetValue(entity, double.Parse(root.Element(propName).Value), null);
+                            break;
+                        default:
+                            prop.SetValue(entity, root.Element(propName).Value, null);
+                            break;
+                    }
+                }
+            }
+        }
+        #endregion
     }
 }
