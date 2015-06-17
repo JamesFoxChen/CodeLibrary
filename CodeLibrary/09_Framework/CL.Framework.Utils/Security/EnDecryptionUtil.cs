@@ -10,6 +10,7 @@ namespace CL.Framework.Utils
 {
     public class EnDecryptionUtil
     {
+        #region MD5加密，加密结果在.Net、Java、IOS通用
         /// <summary>
         /// MD5加密，加密结果在.Net、Java、IOS通用
         /// </summary>
@@ -30,8 +31,128 @@ namespace CL.Framework.Utils
             }
             return sb.ToString().ToLower();
         }
+        #endregion
 
+        #region DES加解密（C#、C语言通用）
+        /// <summary>
+        /// 加密
+        /// </summary>
+        /// <param name="pToEncrypt">需加密字符串</param>
+        /// <param name="key">秘钥（长度必须为8位）</param>
+        /// <param name="padding">必须使用Zeros，使用其他Padding方式加密字符串不是8的倍数会抛异常</param>
+        /// <returns></returns>
+        public static string EncryptString(string pToEncrypt, string key, string padding)
+        {
+            DESCryptoServiceProvider des = new DESCryptoServiceProvider();
 
+            if (padding == "None")
+            {
+                des.Padding = PaddingMode.None;    
+            }
+            else if (padding == "PKCS7")
+            {
+                des.Padding = PaddingMode.PKCS7;
+            }
+            else if (padding == "Zeros")   
+            {
+                des.Padding = PaddingMode.Zeros;
+            }
+            else if (padding == "ANSIX923")
+            {
+                des.Padding = PaddingMode.ANSIX923;
+            }
+            else if (padding == "ISO10126")
+            {
+                des.Padding = PaddingMode.ISO10126;
+            }
+            else
+            {
+                throw new Exception("必须选择一个padding");
+            }
+            des.Mode = CipherMode.ECB;
+
+            byte[] inputByteArray = Encoding.UTF8.GetBytes(pToEncrypt);
+
+            des.Key = UTF8Encoding.UTF8.GetBytes(key.Substring(0, 8));
+            des.IV = UTF8Encoding.UTF8.GetBytes(key.Substring(0, 8));
+            //des.Key = UTF8Encoding.UTF8.GetBytes(key);
+            //des.IV = UTF8Encoding.UTF8.GetBytes(key);
+            MemoryStream ms = new MemoryStream();
+            CryptoStream cs = new CryptoStream(ms, des.CreateEncryptor(), CryptoStreamMode.Write);
+
+            cs.Write(inputByteArray, 0, inputByteArray.Length);
+            cs.FlushFinalBlock();
+
+            StringBuilder ret = new StringBuilder();
+            foreach (byte b in ms.ToArray())
+            {
+                ret.AppendFormat("{0:X2}", b);
+            }
+            ret.ToString();
+            return ret.ToString();
+        }
+
+        /// <summary>
+        /// 解密
+        /// 使用PaddingMode.Zeros方法，解密时会自动补字符\0，故需要去除末尾该字符
+        /// 解密后字符串.TrimEnd('\0')
+        /// </summary>
+        /// <param name="pToDecrypt"></param>
+        /// <param name="key"></param>
+        /// <param name="padding"></param>
+        /// <returns></returns>
+        public static string DecryptString(string pToDecrypt, string key, string padding)
+        {
+            DESCryptoServiceProvider des = new DESCryptoServiceProvider();
+            //des.Padding = PaddingMode.ANSIX923;
+            if (padding == "None")
+            {
+                des.Padding = PaddingMode.None;
+            }
+            else if (padding == "PKCS7")
+            {
+                des.Padding = PaddingMode.PKCS7;
+            }
+            else if (padding == "Zeros")
+            {
+                des.Padding = PaddingMode.Zeros;
+            }
+            else if (padding == "ANSIX923")
+            {
+                des.Padding = PaddingMode.ANSIX923;
+            }
+            else if (padding == "ISO10126")
+            {
+                des.Padding = PaddingMode.ISO10126;
+            }
+            else
+            {
+                throw new Exception("必须选择一个padding");
+            }
+            des.Mode = CipherMode.ECB;
+
+            byte[] inputByteArray = new byte[pToDecrypt.Length / 2];
+            for (int x = 0; x < pToDecrypt.Length / 2; x++)
+            {
+                int i = (Convert.ToInt32(pToDecrypt.Substring(x * 2, 2), 16));
+                inputByteArray[x] = (byte)i;
+            }
+            des.Key = UTF8Encoding.UTF8.GetBytes(key.Substring(0, 8));
+            des.IV = UTF8Encoding.UTF8.GetBytes(key.Substring(0, 8));
+            //des.Key = UTF8Encoding.UTF8.GetBytes(key);
+            //des.IV = UTF8Encoding.UTF8.GetBytes(key);
+            MemoryStream ms = new MemoryStream();
+            CryptoStream cs = new CryptoStream(ms, des.CreateDecryptor(), CryptoStreamMode.Write);
+            cs.Write(inputByteArray, 0, inputByteArray.Length);
+            cs.FlushFinalBlock();
+
+            StringBuilder ret = new StringBuilder();
+
+            return Encoding.UTF8.GetString(ms.ToArray());
+        }
+        #endregion
+        
+        #region 其它
         /// <summary>
         /// 自定义原数组。
         /// </summary>
@@ -165,6 +286,7 @@ namespace CL.Framework.Utils
             encryptKey = key;
             return GetEncryptionByBase64(encryptString);
         }
+        #endregion
         #endregion
     }
 }
