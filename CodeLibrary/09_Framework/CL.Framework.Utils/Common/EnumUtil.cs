@@ -11,10 +11,10 @@ namespace CL.Framework.Utils
     {
 
 //字符串转换成枚举值
-   public static RequestMsgType GetRequestMsgType(string str)
-        {
-            return (RequestMsgType)Enum.Parse(typeof(RequestMsgType), str, true);
-        }
+   //public static RequestMsgType GetRequestMsgType(string str)
+   //     {
+   //         return (RequestMsgType)Enum.Parse(typeof(RequestMsgType), str, true);
+   //     }
         
 //获取枚举描述属性
  public static string GetDescription(Enum en)

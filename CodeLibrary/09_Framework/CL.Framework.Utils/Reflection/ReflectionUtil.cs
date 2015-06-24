@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Data;
 using System.Reflection;
+using System.Xml.Linq;
 
 namespace CL.Framework.Utils
 {
     /// <summary>
     /// 反射操作工具类
     /// </summary>
-    public class ReflectionUtil
+    public static class ReflectionUtil
     {
         #region 根据反射机制将dataTable中指定行的数据赋给obj对象
         /// <summary>
@@ -372,7 +373,7 @@ namespace CL.Framework.Utils
                     switch (prop.PropertyType.Name)
                     {
                         case "DateTime":
-                            prop.SetValue(entity, DateTimeHelper.GetDateTimeFromXml(root.Element(propName).Value), null);
+                            //prop.SetValue(entity, DateTimeHelper.GetDateTimeFromXml(root.Element(propName).Value), null);
                             break;
                         case "Boolean":
                             if (propName == "FuncFlag")
