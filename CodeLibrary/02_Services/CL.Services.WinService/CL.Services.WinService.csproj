@@ -54,6 +54,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
+      <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
+      <Name>CL.Framework.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

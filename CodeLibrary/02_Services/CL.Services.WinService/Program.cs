@@ -24,7 +24,7 @@ namespace CL.Services.WinService
                     s.WhenStopped(o => o.Stop());
                 });
             }
-                         );
+          );
         }
     }
 }

@@ -4,3 +4,11 @@ C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.
 C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\Topshelf.dll
 C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\obj\Debug\CL.Services.WinService.exe
 C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\obj\Debug\CL.Services.WinService.pdb
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.Framework.Utils.dll
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\NPOI.dll
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\Newtonsoft.Json.dll
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.Framework.Utils.pdb
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\NPOI.xml
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\Newtonsoft.Json.xml
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\obj\Debug\CL.Services.WinService.csprojResolveAssemblyReference.cache
