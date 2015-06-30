@@ -1,0 +1,6 @@
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.Services.WinService.exe.config
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.Services.WinService.exe
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\CL.Services.WinService.pdb
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\bin\Debug\Topshelf.dll
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\obj\Debug\CL.Services.WinService.exe
+C:\Test\CodeLibrary\CodeLibrary\02_Services\CL.Services.WinService\obj\Debug\CL.Services.WinService.pdb
