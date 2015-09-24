@@ -19,6 +19,6 @@ C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\I
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\CL.Framework.Utils.pdb
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\NPOI.xml
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\bin\Debug\Newtonsoft.Json.xml
-C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.csprojResolveAssemblyReference.cache
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.dll
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.pdb
+C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Extensions\obj\Debug\CL.Framework.Extensions.csprojResolveAssemblyReference.cache
