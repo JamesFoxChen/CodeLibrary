@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 using System.ComponentModel;
 
@@ -46,6 +47,21 @@ public static class EnumExtensions
         //return obj.ToString();
     }
 
+
+    /// <summary>
+    /// 获取枚举的KeyValue键值对
+    /// </summary>
+    /// <param name="obj"></param>
+    /// <returns></returns>
+    public static Dictionary<string, string> GetEumKeyValue(this Enum obj)
+    {
+        var dic = new Dictionary<string, string>();
+        foreach (var value in Enum.GetValues(obj.GetType()))
+        {
+            dic.Add(Convert.ToInt32(value).ToString(), value.ToString());
+        }
+        return dic;
+    }
     ///// <summary>
     ///// 获取指定枚举的Description信息
     ///// </summary>
