@@ -82,6 +82,7 @@
     <Compile Include="Log\TraceLogRecorder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection\ReflectionUtil.cs" />
+    <Compile Include="Security\AESUtil.cs" />
     <Compile Include="Security\EnDecryptionUtil.cs" />
     <Compile Include="Security\MD5Util.cs" />
     <Compile Include="Sql\PagerUtil.cs" />

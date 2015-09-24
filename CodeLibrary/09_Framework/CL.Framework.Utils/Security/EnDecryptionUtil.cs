@@ -10,29 +10,7 @@ namespace CL.Framework.Utils
 {
     public class EnDecryptionUtil
     {
-        #region MD5加密，加密结果在.Net、Java、IOS通用
-        /// <summary>
-        /// MD5加密，加密结果在.Net、Java、IOS通用
-        /// </summary>
-        /// <param name="str"></param>
-        /// <returns></returns>
-        public static string GetMd5Str(string str)
-        {
-            // step 1, calculate MD5 hash from input
-            MD5 md5 = System.Security.Cryptography.MD5.Create();
-            byte[] inputBytes = System.Text.Encoding.UTF8.GetBytes(str);
-            byte[] hash = md5.ComputeHash(inputBytes);
-
-            // step 2, convert byte array to hex string
-            StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < hash.Length; i++)
-            {
-                sb.Append(hash[i].ToString("X2"));
-            }
-            return sb.ToString().ToLower();
-        }
-        #endregion
-
+      
         #region DES加解密（C#、C语言通用）
         /// <summary>
         /// 加密

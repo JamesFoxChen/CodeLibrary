@@ -25,5 +25,13 @@ namespace CL.Framework.Utils
             return false;
         }
 
+        /// <summary>
+        /// 获取GUID
+        /// </summary>
+        /// <returns></returns>
+        public static string GetGUID()
+        {
+            return Guid.NewGuid().ToString("N"); //直接返回字符串类型
+        }
     }
 }
