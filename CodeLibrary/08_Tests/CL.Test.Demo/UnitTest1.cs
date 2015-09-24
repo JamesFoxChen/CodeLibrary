@@ -9,8 +9,6 @@ namespace CL.Test.Demo
         [TestMethod]
         public void TestMethod1()
         {
-            string a = "21";
-            Assert.AreEqual("211", a);
         }
     }
 }
