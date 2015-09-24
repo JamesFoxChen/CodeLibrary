@@ -152,6 +152,18 @@ namespace CL.Framework.Utils
                 Log(LogLevel.Error, format, args);
         }
 
+        public static void ErrorWithException(string s, Exception ex)
+        {
+            if ((int)logLevel <= (int)LogLevel.Error)
+                Log(LogLevel.Error, s);
+
+            if (ex.InnerException != null)
+            {
+                Log(LogLevel.Error, "(InnerException):" + ex.InnerException.Message);
+            }
+        }
+
+
         public static void Log(LogLevel logLevel, string s)
         {
             //return;
