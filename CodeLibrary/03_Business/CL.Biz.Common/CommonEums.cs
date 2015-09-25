@@ -132,4 +132,17 @@ namespace CL.Biz.Common
         /// </summary>
         TimeOutOrVerifyFailure = 9
     }
+
+    /// <summary>
+    /// 数据库枚举
+    /// </summary>
+    public enum DataBaseEnum
+    {
+        [Description("Oracle")]
+        Oracle = 1,
+        [Description("SqlServer")]
+        SqlServer = 2,
+        [Description("SqlServer_CE")]
+        SqlServerCE = 3
+    }
 }

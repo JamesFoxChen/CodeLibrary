@@ -51,6 +51,8 @@
   <ItemGroup>
     <Compile Include="CLDbContext.cs" />
     <Compile Include="Common\DBConnection.cs" />
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="SqlServerDBHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

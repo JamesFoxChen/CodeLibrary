@@ -26,7 +26,7 @@
    
     	<div id="mws-logo-container">
         	<div id="mws-logo-wrap">
-            	<img src="/Images/logo.jpg" alt="mws admin" />
+<%--            	<img src="/Images/logo.jpg" alt="mws admin" />--%>
 			</div>
         </div>
        

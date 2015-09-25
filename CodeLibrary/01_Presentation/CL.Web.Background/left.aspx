@@ -59,35 +59,56 @@
 
     <style>
         .active {
-            background-color:#666;
+            background-color: #666;
         }
+
         div#mws-navigation ul li ul li:hover {
-            background-color:#666;
+            background-color: #666;
         }
     </style>
 </head>
 <body>
     <!-- Necessary markup, do not remove -->
-		
-		<div id="mws-sidebar-bg"></div>
-        
-        <!-- Sidebar Wrapper -->
-        <div id="mws-sidebar">
-            
-            <!-- Main Navigation -->
-            <div id="mws-navigation">
-            	<ul id="menu">    
-                    <li>
-                        <a href="#" class="mws-i-24 i-blocks-images firstMenu">用户管理</a>
-                       <%-- <ul <%= i > 0 ? "class='closed' style='display: none;'" : string.Empty %>>--%>
-                        <ul>
-                          <li><a href="/Pages/User/UserList.aspx" target="myframe">用户信息</a></li> 
-                        </ul> 
-                     </li>
-                </ul>
-            </div>
-            <!-- End Navigation -->            
-   
+
+    <div id="mws-sidebar-bg"></div>
+
+    <!-- Sidebar Wrapper -->
+    <div id="mws-sidebar">
+
+        <!-- Main Navigation -->
+        <div id="mws-navigation">
+            <ul id="menu">
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">用户管理</a>
+                    <%-- <ul <%= i > 0 ? "class='closed' style='display: none;'" : string.Empty %>>--%>
+                    <ul>
+                        <li><a href="/Pages/User/UserList.aspx" target="myframe">用户信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">商品管理</a>
+                    <ul>
+                        <li><a href="/Pages/Product/ProductList.aspx" target="myframe">商品信息</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">订单管理</a>
+                    <ul>
+                        <li><a href="/Pages/Order/OrderList.aspx" target="myframe">订单信息</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">其它</a>
+                    <ul>
+                        <li><a href="/Pages/Other/SwitchDataBase.aspx" target="myframe">切换数据库</a></li>
+                        <li><a href="/Pages/Other/GenerateEntity.aspx" target="myframe">生成实体类</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- End Navigation -->
+
     </div>
 
     <script type="text/javascript">

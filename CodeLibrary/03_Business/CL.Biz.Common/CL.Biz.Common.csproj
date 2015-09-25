@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,10 +48,15 @@
     <Compile Include="BizEnums.cs" />
     <Compile Include="CodeValueUtil.cs" />
     <Compile Include="CommonEums.cs" />
+    <Compile Include="Constant.cs" />
     <Compile Include="PageUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\04_DataAccess\CL.DAL.DataAccess\CL.DAL.DataAccess.csproj">
+      <Project>{72732299-7817-46b4-95df-0dec070c21dc}</Project>
+      <Name>CL.DAL.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Extensions\CL.Framework.Extensions.csproj">
       <Project>{a5656e81-32e6-4636-a384-82dd25f00651}</Project>
       <Name>CL.Framework.Extensions</Name>

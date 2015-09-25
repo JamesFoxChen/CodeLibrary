@@ -113,6 +113,12 @@
     <Content Include="Index.html" />
     <Content Include="Left.aspx" />
     <Content Include="Pages\Common\ErrorPage.aspx" />
+    <Content Include="Pages\Order\OrderDetail.aspx" />
+    <Content Include="Pages\Order\OrderList.aspx" />
+    <Content Include="Pages\Other\GenerateEntity.aspx" />
+    <Content Include="Pages\Other\SwitchDataBase.aspx" />
+    <Content Include="Pages\Product\ProductEdit.aspx" />
+    <Content Include="Pages\Product\ProductList.aspx" />
     <Content Include="Pages\User\UserList.aspx" />
     <Content Include="Plugins\colorpicker\colorpicker.css" />
     <Content Include="Plugins\colorpicker\colorpicker.js" />
@@ -3329,6 +3335,48 @@
     <Compile Include="Pages\Common\ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Order\OrderDetail.aspx.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\OrderDetail.aspx.designer.cs">
+      <DependentUpon>OrderDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Order\OrderList.aspx.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Order\OrderList.aspx.designer.cs">
+      <DependentUpon>OrderList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\GenerateEntity.aspx.cs">
+      <DependentUpon>GenerateEntity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\GenerateEntity.aspx.designer.cs">
+      <DependentUpon>GenerateEntity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\SwitchDataBase.aspx.cs">
+      <DependentUpon>SwitchDataBase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\SwitchDataBase.aspx.designer.cs">
+      <DependentUpon>SwitchDataBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Product\ProductEdit.aspx.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Product\ProductEdit.aspx.designer.cs">
+      <DependentUpon>ProductEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Product\ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Product\ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\User\UserList.aspx.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3361,9 +3409,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="App_Data\" />
     <Folder Include="Images\upload\" />
-    <Folder Include="Models\" />
+    <Folder Include="Pages\System\" />
     <Folder Include="Plugins\ueditor\net\Bin\" />
   </ItemGroup>
   <ItemGroup>
