@@ -99,13 +99,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\05_CrossDomain\CL.CrossDomain.Common\CL.CrossDomain.Common.csproj">
-      <Project>{0ed1220a-912d-401a-8307-4154537b6cf1}</Project>
-      <Name>CL.CrossDomain.Common</Name>
+    <ProjectReference Include="..\..\03_Business\CL.Biz.Common\CL.Biz.Common.csproj">
+      <Project>{feb98053-5aae-41e7-8626-61d7c5e56e92}</Project>
+      <Name>CL.Biz.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\05_CrossDomain\CL.CrossDomain.DomainModel\CL.CrossDomain.DomainModel.csproj">
-      <Project>{749e5b76-abe1-49d9-8cbf-fadcb1fa65c2}</Project>
-      <Name>CL.CrossDomain.DomainModel</Name>
+    <ProjectReference Include="..\..\05_CrossDomain\CL.CrossDomain.DomainModel.Common\CL.CrossDomain.DomainModel.Common.csproj">
+      <Project>{9319ae54-a52c-49b6-881e-b19a5529ed62}</Project>
+      <Name>CL.CrossDomain.DomainModel.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Extensions\CL.Framework.Extensions.csproj">
       <Project>{a5656e81-32e6-4636-a384-82dd25f00651}</Project>

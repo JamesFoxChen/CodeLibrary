@@ -1,5 +1,5 @@
 ﻿
-namespace CL.CrossDomain.DomainModel
+namespace CL.CrossDomain.DomainModel.Common
 {
     /// <summary>
     /// 数据库实体类基类

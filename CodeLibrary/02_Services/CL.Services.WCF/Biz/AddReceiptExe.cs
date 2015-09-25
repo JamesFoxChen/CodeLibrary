@@ -3,8 +3,9 @@ using Newtonsoft.Json;
 using System.Text.RegularExpressions;
 using System.Data;
 using System.Text;
-using CL.CrossDomain.DomainModel;
-using CL.CrossDomain.Common;
+using CL.Biz.Common;
+using CL.CrossDomain.DomainModel.Common;
+
 
 namespace CL.Services.WCF
 {
@@ -24,7 +25,7 @@ namespace CL.Services.WCF
             //输入数据转换对应实体类失败
             if (ent == null)
             {
-                return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestEntityBaseNull);
+                return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestEntityBaseNull);
             }
 
             try
@@ -35,7 +36,7 @@ namespace CL.Services.WCF
                 if (IsRequestDataEmpty(request.UserStateId, request.AppType, request.PhoneType
                     , request.IsFlag, request.ProvinceId, request.CityId, request.RegionId, request.LinkAddress, request.LinkMan, request.LinkMobile))
                 {
-                    return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestDataRequired);
+                    return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestDataRequired);
                 }
 
                 UrlDecode(request);
@@ -44,42 +45,42 @@ namespace CL.Services.WCF
                 UserInfoCache userInfoCache = UserCacheBase.VerifyUserInfo(request.UserStateId);
                 if (userInfoCache == null)
                 {
-                    return ResponseEntityToData(Enum_ResultId.TimeOutOrVerifyFailure,ConstantBLLUtil.Error_TimeOutOrVerifyFailure);
+                    return ResponseEntityToData(EnumResultId.TimeOutOrVerifyFailure,ConstantBLLUtil.Error_TimeOutOrVerifyFailure);
                 }
 
                 if (!Regex.IsMatch(request.LinkMobile, @"^(13[0-9]|145|147|15[0-3]|15[5-9]|18[0-9])[0-9]{8}$"))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "手机号码格式不符合要求");
+                    return ResponseEntityToData(EnumResultId.D4, "手机号码格式不符合要求");
                 }
 
                 if (!Regex.IsMatch(request.ProvinceId, @"^\d{2}$"))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "省份编号不符合要求");
+                    return ResponseEntityToData(EnumResultId.D4, "省份编号不符合要求");
                 }
 
                 if (!Regex.IsMatch(request.CityId, @"^\d{3}$"))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "城市编号不符合要求");
+                    return ResponseEntityToData(EnumResultId.D4, "城市编号不符合要求");
                 }
 
                 if (!checkLength(request.LinkAddress, 100))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "收货地址超长");
+                    return ResponseEntityToData(EnumResultId.D4, "收货地址超长");
                 }
 
                 if (!checkLength(request.LinkMan, 50))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "收货联系人超长");
+                    return ResponseEntityToData(EnumResultId.D4, "收货联系人超长");
                 }
 
                 if (!string.IsNullOrWhiteSpace(request.LinkPost) && !Regex.IsMatch(request.LinkPost, @"^[0-9]{6}$"))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "邮编不符合要求");
+                    return ResponseEntityToData(EnumResultId.D4, "邮编不符合要求");
                 }
 
                 if (!string.IsNullOrWhiteSpace(request.LinkTel) && !checkLength(request.LinkTel, 20))
                 {
-                    return ResponseEntityToData(Enum_ResultId.D4, "联系电话不符合要求");
+                    return ResponseEntityToData(EnumResultId.D4, "联系电话不符合要求");
                 }
 
                 //var model = null;
@@ -92,7 +93,7 @@ namespace CL.Services.WCF
                 {
                     if (dt.Rows.Count >= 20)
                     {
-                        return ResponseEntityToData(Enum_ResultId.D5, "最多保存20个有效地址");
+                        return ResponseEntityToData(EnumResultId.D5, "最多保存20个有效地址");
                     }
                     else
                     {
@@ -126,16 +127,16 @@ namespace CL.Services.WCF
                 if (i > 0)
                 {
                     var responseEnt = getResponseEntity("");
-                    return ResponseEntityToData(Enum_ResultId.Success, "成功", responseEnt);
+                    return ResponseEntityToData(EnumResultId.Success, "成功", responseEnt);
                 }
                 else
                 {
-                    return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, "添加失败");
+                    return ResponseEntityToData(EnumResultId.ExceptionOrNoData, "添加失败");
                 }
             }
             catch (Exception ex)
             {
-                return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ex.Message);
+                return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ex.Message);
             }
         }
 
@@ -148,7 +149,7 @@ namespace CL.Services.WCF
             return requestEntity;
         }
 
-        public override string ResponseEntityToData(Enum_ResultId resultId, string resultMsg = "", ResponseEntityBase resposeBase = null)
+        public override string ResponseEntityToData(EnumResultId resultId, string resultMsg = "", ResponseEntityBase resposeBase = null)
         {
             AddReceiptResponse response = null;
             if (resposeBase == null)
@@ -163,7 +164,7 @@ namespace CL.Services.WCF
             response.ResultId = resultId.GetHashCode().ToString();
             response.ResultMsg = resultMsg.UrlEncoding();
 
-            LogMsg(resultId, resultMsg, ConstantBLLUtil.LogTypeMain, Enum_ServiceType.AddReceipt);
+            LogMsg(resultId, resultMsg, ConstantBLLUtil.LogTypeMain);
 
             return ToJson<AddReceiptResponse>(response);
         }
@@ -180,7 +181,7 @@ namespace CL.Services.WCF
         {
             var response = new AddReceiptResponse
             {
-                ResultId = Enum_ResultId.Success.GetHashCode().ToString(),
+                ResultId = EnumResultId.Success.GetHashCode().ToString(),
                 LinkId = linkId
             };
 

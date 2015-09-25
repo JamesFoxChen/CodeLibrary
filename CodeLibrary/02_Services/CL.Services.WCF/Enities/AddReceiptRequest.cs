@@ -1,5 +1,7 @@
 ﻿
 using CL.CrossDomain.DomainModel;
+using CL.CrossDomain.DomainModel.Common;
+
 namespace CL.Services.WCF
 {
     /// <summary>

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749E5B76-ABE1-49D9-8CBF-FADCB1FA65C2}</ProjectGuid>
+    <ProjectGuid>{9319AE54-A52C-49B6-881E-B19A5529ED62}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CL.CrossDomain.DomainModel</RootNamespace>
-    <AssemblyName>CL.CrossDomain.DomainModel</AssemblyName>
+    <RootNamespace>CL.CrossDomain.DomainModel.Common</RootNamespace>
+    <AssemblyName>CL.CrossDomain.DomainModel.Common</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,11 +40,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DbEntityBase.cs" />
+    <Compile Include="EntityBase.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RequestEntityBase.cs" />
     <Compile Include="RequestEntityPagerBase.cs" />
     <Compile Include="ResponseEntityBase.cs" />
-    <Compile Include="EntityBase.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

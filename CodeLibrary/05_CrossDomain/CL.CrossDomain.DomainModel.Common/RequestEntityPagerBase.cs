@@ -1,5 +1,5 @@
 ﻿
-namespace CL.CrossDomain.DomainModel
+namespace CL.CrossDomain.DomainModel.Common
 {
     /// <summary>
     /// 翻页请求实体类基类

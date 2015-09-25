@@ -1,7 +1,8 @@
-﻿using CL.CrossDomain.Common;
-using CL.CrossDomain.DomainModel;
+﻿
 using Newtonsoft.Json;
 using System;
+using CL.Biz.Common;
+using CL.CrossDomain.DomainModel.Common;
 
 namespace CL.Services.WCF
 {
@@ -29,7 +30,7 @@ namespace CL.Services.WCF
         /// </summary>
         /// <param name="ent"></param>
         /// <returns></returns>
-        public abstract string ResponseEntityToData(Enum_ResultId resultId, string resultMsg, ResponseEntityBase responseEntity);
+        public abstract string ResponseEntityToData(EnumResultId resultId, string resultMsg, ResponseEntityBase responseEntity);
 
         /// <summary>
         /// 将响应实体类值转化为Json字符串
@@ -56,9 +57,9 @@ namespace CL.Services.WCF
             }
         }
 
-        protected void LogMsg(Enum_ResultId resultId, string msg, int logTypeMain, Enum_ServiceType logType)
+        protected void LogMsg(EnumResultId resultId, string msg, int logTypeMain)
         {
-            if (resultId != Enum_ResultId.Success)
+            if (resultId != EnumResultId.Success)
             {
                 //if (ConfigUtil.IsLog)
                 //{
@@ -97,7 +98,7 @@ namespace CL.Services.WCF
         ///// <param name="resultId"></param>
         ///// <param name="msg"></param>
         ///// <returns></returns>
-        //protected ResponseEntityBase ReponseNonSuccess<T>(Enum_ResultId resultId, string msg = "")
+        //protected ResponseEntityBase ReponseNonSuccess<T>(EnumResultId resultId, string msg = "")
         //                                                    where T : ResponseEntityBase, new()
         //{
         //    T response = new T();
@@ -122,7 +123,7 @@ namespace CL.Services.WCF
         //{
         //    return new ResponseEntityBase
         //    {
-        //        ResultId = Enum_ResultId.Success.GetHashCode().ToString()
+        //        ResultId = EnumResultId.Success.GetHashCode().ToString()
         //    };
         //}
 

@@ -4,6 +4,7 @@ using System;
 using System.Reflection;
 using System.Web;
 using CL.CrossDomain.DomainModel;
+using CL.CrossDomain.DomainModel.Common;
 using CL.Framework.Utils;
 
 

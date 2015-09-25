@@ -1,5 +1,6 @@
 ﻿using CL.CrossDomain.DomainModel;
 using System.Collections.Generic;
+using CL.CrossDomain.DomainModel.Common;
 
 namespace CL.Services.WCF
 {

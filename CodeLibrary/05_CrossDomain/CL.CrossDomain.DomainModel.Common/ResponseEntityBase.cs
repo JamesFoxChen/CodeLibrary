@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CL.CrossDomain.DomainModel
+namespace CL.CrossDomain.DomainModel.Common
 {
     /// <summary>
     /// 响应实体类基类

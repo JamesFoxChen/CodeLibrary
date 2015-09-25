@@ -1,8 +1,8 @@
 ﻿using System;
 using Newtonsoft.Json;
 using System.Collections.Generic;
-using CL.CrossDomain.DomainModel;
-using CL.CrossDomain.Common;
+using CL.Biz.Common;
+using CL.CrossDomain.DomainModel.Common;
 
 namespace CL.Services.WCF
 {
@@ -22,7 +22,7 @@ namespace CL.Services.WCF
             //输入数据转换对应实体类失败
             if (ent == null)
             {
-                return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestEntityBaseNull);
+                return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestEntityBaseNull);
             }
 
             try
@@ -32,7 +32,7 @@ namespace CL.Services.WCF
 
                 if (IsRequestDataEmpty(request.UserStateId, request.AppType, request.PhoneType, request.IsGetAll))
                 {
-                    return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestDataRequired);
+                    return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ConstantBLLUtil.Error_RequestDataRequired);
                 }
 
                 UrlDecode(request);
@@ -41,14 +41,14 @@ namespace CL.Services.WCF
                 UserInfoCache userInfoCache = UserCacheBase.VerifyUserInfo(request.UserStateId);
                 if (userInfoCache == null)
                 {
-                    return ResponseEntityToData(Enum_ResultId.TimeOutOrVerifyFailure, ConstantBLLUtil.Error_TimeOutOrVerifyFailure);
+                    return ResponseEntityToData(EnumResultId.TimeOutOrVerifyFailure, ConstantBLLUtil.Error_TimeOutOrVerifyFailure);
                 }
 
-                return ResponseEntityToData(Enum_ResultId.Success, "", getResponseEntity(request, userInfoCache.CustomerId));
+                return ResponseEntityToData(EnumResultId.Success, "", getResponseEntity(request, userInfoCache.CustomerId));
             }
             catch (Exception ex)
             {
-                return ResponseEntityToData(Enum_ResultId.ExceptionOrNoData, ex.Message);
+                return ResponseEntityToData(EnumResultId.ExceptionOrNoData, ex.Message);
             }
         }
 
@@ -61,7 +61,7 @@ namespace CL.Services.WCF
             return requestEntity;
         }
 
-        public override string ResponseEntityToData(Enum_ResultId resultId, string resultMsg = "", ResponseEntityBase resposeBase = null)
+        public override string ResponseEntityToData(EnumResultId resultId, string resultMsg = "", ResponseEntityBase resposeBase = null)
         {
             GetReceiptListResponse response = null;
             if (resposeBase == null)
@@ -76,7 +76,7 @@ namespace CL.Services.WCF
             response.ResultId = resultId.GetHashCode().ToString();
             response.ResultMsg = resultMsg.UrlEncoding();
 
-            LogMsg(resultId, resultMsg, ConstantBLLUtil.LogTypeMain, Enum_ServiceType.GetReceiptList);
+            LogMsg(resultId, resultMsg, ConstantBLLUtil.LogTypeMain);
 
             return ToJson<GetReceiptListResponse>(response);
         }
