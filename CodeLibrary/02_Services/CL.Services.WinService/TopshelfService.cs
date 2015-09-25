@@ -12,7 +12,7 @@ namespace CL.Services.WinService
     {
         public void Start()
         {
-            TextLoggingService.Error("不要关本窗体，谢谢-陈志");
+            TextLogUtil.Error("不要关本窗体，谢谢-陈志");
             writeIISLogToSqlserver();
             deleteHistoryRecord();
             deleteRepeatRecord();
@@ -53,7 +53,7 @@ namespace CL.Services.WinService
             }
             catch (Exception ex)
             {
-                TextLoggingService.Error(ex.Message);
+                TextLogUtil.Error(ex.Message);
             }
         }
 
@@ -88,8 +88,8 @@ namespace CL.Services.WinService
 
             sqlserverCmd = string.Format(sqlserverCmd, select, filePath, tableName, where, server, dbConfig);
 
-            //TextLoggingService.Debug(locationCmd);
-            //TextLoggingService.Debug(sqlserverCmd);
+            //TextLogUtil.Debug(locationCmd);
+            //TextLogUtil.Debug(sqlserverCmd);
 
             executeCMD(locationCmd, sqlserverCmd);
         }
@@ -154,7 +154,7 @@ namespace CL.Services.WinService
             }
             catch (Exception ex)
             {
-                TextLoggingService.Error(ex.Message);
+                TextLogUtil.Error(ex.Message);
             }
         }
 
@@ -214,7 +214,7 @@ namespace CL.Services.WinService
             }
             catch (Exception ex)
             {
-                TextLoggingService.Error(ex.Message);
+                TextLogUtil.Error(ex.Message);
             }
         }
 
@@ -228,7 +228,7 @@ namespace CL.Services.WinService
                 }
                 else
                 {
-                    //TextLoggingService.Debug(DateTime.Now.ToString("HHmmss"));
+                    //TextLogUtil.Debug(DateTime.Now.ToString("HHmmss"));
                     System.Threading.Thread.Sleep(1000);
                 }
             }
@@ -261,7 +261,7 @@ namespace CL.Services.WinService
             }
             catch (Exception ex)
             {
-                TextLoggingService.Error(ex.Message);
+                TextLogUtil.Error(ex.Message);
             }
         }
 

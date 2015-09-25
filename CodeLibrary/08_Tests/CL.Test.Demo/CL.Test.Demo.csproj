@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Thrid\Excel\ExcelTest.cs" />
     <Compile Include="Thrid\KuaiDi\KuaiDiTest.cs" />
+    <Compile Include="Thrid\Qiniu\QiniuTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -66,6 +67,10 @@
     <ProjectReference Include="..\..\06_Plugins\CL.Plugin.KuaiDi\CL.Plugin.KuaiDi.csproj">
       <Project>{146873ee-d35e-4f85-82eb-ec693c42d3bc}</Project>
       <Name>CL.Plugin.KuaiDi</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Qiniu\CL.Plugin.Qiniu.csproj">
+      <Project>{204dfd8a-6eab-4eea-993f-0d7c3321a7b1}</Project>
+      <Name>CL.Plugin.Qiniu</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
       <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>

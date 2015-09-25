@@ -23,7 +23,7 @@ namespace CL.Web.Background.Pages.Other
 
         private void bindDBTables()
         {
-            var dbTable = TableControlBiz.GetTables("");
+            var dbTable = TableControlBiz.GetTables("").OrderBy(p => p.TableName);
             this.ddlDBTables.Items.Clear();
             this.ddlDBTables.Items.Add(new ListItem("请选择", ""));
             foreach (var item in dbTable)

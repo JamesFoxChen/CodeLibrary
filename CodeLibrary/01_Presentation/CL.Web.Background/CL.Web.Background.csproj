@@ -117,6 +117,8 @@
     <Content Include="Pages\Order\OrderList.aspx" />
     <Content Include="Pages\Other\GenerateEntity.aspx" />
     <Content Include="Pages\Other\SwitchDataBase.aspx" />
+    <Content Include="Pages\Product\BrandEdit.aspx" />
+    <Content Include="Pages\Product\BrandList.aspx" />
     <Content Include="Pages\Product\ProductEdit.aspx" />
     <Content Include="Pages\Product\ProductList.aspx" />
     <Content Include="Pages\User\UserList.aspx" />
@@ -3363,6 +3365,20 @@
     <Compile Include="Pages\Other\SwitchDataBase.aspx.designer.cs">
       <DependentUpon>SwitchDataBase.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Product\BrandEdit.aspx.cs">
+      <DependentUpon>BrandEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Product\BrandEdit.aspx.designer.cs">
+      <DependentUpon>BrandEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Product\BrandList.aspx.cs">
+      <DependentUpon>BrandList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Product\BrandList.aspx.designer.cs">
+      <DependentUpon>BrandList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Product\ProductEdit.aspx.cs">
       <DependentUpon>ProductEdit.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3427,6 +3443,10 @@
     <ProjectReference Include="..\..\05_CrossDomain\CL.CrossDomain.DomainModel.Background\CL.CrossDomain.DomainModel.Background.csproj">
       <Project>{ebbce354-f20f-4004-9529-3ac0aa57ebf5}</Project>
       <Name>CL.CrossDomain.DomainModel.Background</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Qiniu\CL.Plugin.Qiniu.csproj">
+      <Project>{204dfd8a-6eab-4eea-993f-0d7c3321a7b1}</Project>
+      <Name>CL.Plugin.Qiniu</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Extensions\CL.Framework.Extensions.csproj">
       <Project>{a5656e81-32e6-4636-a384-82dd25f00651}</Project>

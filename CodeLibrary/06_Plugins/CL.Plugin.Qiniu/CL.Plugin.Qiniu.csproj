@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03849015-FDD8-4101-A203-9456E7794E09}</ProjectGuid>
+    <ProjectGuid>{204DFD8A-6EAB-4EEA-993F-0D7C3321A7B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CL.Framework.Utils</RootNamespace>
-    <AssemblyName>CL.Framework.Utils</AssemblyName>
+    <RootNamespace>CL.Plugin.Qiniu</RootNamespace>
+    <AssemblyName>CL.Plugin.Qiniu</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,20 +30,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>..\..\packages\NPOI.2.1.3.1\lib\net40\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="NPOI">
-      <HintPath>..\..\packages\NPOI.2.1.3.1\lib\net40\NPOI.dll</HintPath>
+    <Reference Include="Qiniu.4.5">
+      <HintPath>..\..\Library\Qiniu.4.5.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -52,46 +48,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\EnumUtil.cs" />
-    <Compile Include="Common\JsonUtil.cs" />
-    <Compile Include="Common\RegexUtil.cs" />
-    <Compile Include="Common\StringUtil.cs" />
-    <Compile Include="Communication\HttpRequestResponseUtil.cs" />
-    <Compile Include="Communication\MailUtil.cs" />
-    <Compile Include="Communication\NetUtil.cs" />
-    <Compile Include="Core\AdditionalTypes.cs" />
-    <Compile Include="Core\ClassHelper.cs" />
-    <Compile Include="EntitiesComon\EntityUtil.cs" />
-    <Compile Include="EntitiesComon\PagerEntity.cs" />
-    <Compile Include="Http\HttpPostUtil.cs" />
-    <Compile Include="IO\CsvUtil.cs" />
-    <Compile Include="IO\ExcelUtil.cs" />
-    <Compile Include="IO\FileUtil.cs" />
-    <Compile Include="IO\ImageUtil.cs" />
-    <Compile Include="IO\ParseUtil.cs" />
-    <Compile Include="IO\XmlUtil.cs" />
-    <Compile Include="IO\ZipUtil.cs" />
-    <Compile Include="Log\ConfigUtil.cs" />
-    <Compile Include="Log\DebugLogRecorder.cs" />
-    <Compile Include="Log\ILogRecorder.cs" />
-    <Compile Include="Log\LogTxtUtil.cs" />
-    <Compile Include="Log\LogUtil.cs" />
-    <Compile Include="Log\ServicesLogRecorder.cs" />
-    <Compile Include="Log\SysLogType.cs" />
-    <Compile Include="Log\TextLogUtil.cs" />
-    <Compile Include="Log\TraceLogRecorder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Reflection\ReflectionUtil.cs" />
-    <Compile Include="Security\AESUtil.cs" />
-    <Compile Include="Security\EnDecryptionUtil.cs" />
-    <Compile Include="Security\MD5Util.cs" />
-    <Compile Include="Sql\PagerUtil.cs" />
-    <Compile Include="Web\HighlightingUtil.cs" />
-    <Compile Include="Web\JSUtil.cs" />
-    <Compile Include="Web\UrlBuilder.cs" />
-    <Compile Include="Web\WebPathUtil.cs" />
+    <Compile Include="QiniuConfig.cs" />
+    <Compile Include="QiniuHelper.cs" />
+    <Compile Include="QiniuImageMng.cs" />
+    <Compile Include="QiniuPutRet.cs" />
+    <Compile Include="QiniuResponse.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\..\09_Framework\CL.Framework.Extensions\CL.Framework.Extensions.csproj">
+      <Project>{a5656e81-32e6-4636-a384-82dd25f00651}</Project>
+      <Name>CL.Framework.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
+      <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
+      <Name>CL.Framework.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

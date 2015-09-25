@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CL.Framework.Utils
 {
-    public class TextLoggingService
+    public class TextLogUtil
     {
         private static readonly object locker = new object();
         private static StreamWriter sw;
@@ -21,7 +21,7 @@ namespace CL.Framework.Utils
         private static readonly string LOGLINEFORMAT = "HH:mm:ss_ffff";
         private static LogLevel logLevel;
 
-        static TextLoggingService()
+        static TextLogUtil()
         {
             changePathTimer = new Timer(state =>
             {
@@ -83,7 +83,7 @@ namespace CL.Framework.Utils
             StackFrame stackFrame = null;
             for (int i = 0; i < stackFrames.Length; i++)
             {
-                if (stackFrames[i].GetMethod().ReflectedType != typeof(TextLoggingService))
+                if (stackFrames[i].GetMethod().ReflectedType != typeof(TextLogUtil))
                 {
                     stackFrame = stackFrames[i];
                     break;

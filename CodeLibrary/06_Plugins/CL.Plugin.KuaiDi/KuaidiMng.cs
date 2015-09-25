@@ -28,7 +28,7 @@ namespace CL.Plugin.KuaiDi
             }
             catch (Exception ex)
             {
-                TextLoggingService.ErrorWithException("获取物流信息(GetWuli)\r\nMsg：" + ex.Message + "\r\nStack：" + ex.StackTrace, ex);
+                TextLogUtil.ErrorWithException("获取物流信息(GetWuli)\r\nMsg：" + ex.Message + "\r\nStack：" + ex.StackTrace, ex);
             }
 
             return list;

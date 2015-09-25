@@ -5,5 +5,5 @@
 
     数据库：<asp:DropDownList ID="ddlDBTables" runat="server"></asp:DropDownList>&nbsp;<asp:Button ID="btnGenerateModel" runat="server" Text="生成实体类" OnClick="btnGenerateModel_Click" />
     <br />
-    <asp:TextBox ID="txtCode" runat="server" Height="610px" TextMode="MultiLine" Width="351px" ></asp:TextBox>
+    <asp:TextBox ID="txtCode" runat="server" Height="610px" TextMode="MultiLine" Width="1074px" ></asp:TextBox>
 </asp:Content>

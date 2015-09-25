@@ -483,4 +483,20 @@ public static class StringExtensions
     }
 
     #endregion
+
+
+    #region 获取字符串长度
+    public static int Len(this string str)
+    {
+        int c2 = 0;
+        for (int i = 0; i < str.Length; i++)
+        {
+            if (str[i] == '/')
+            {
+                c2++;
+            }
+        }
+        return c2;
+    }
+    #endregion
 }
