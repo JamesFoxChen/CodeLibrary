@@ -43,6 +43,7 @@
     <Compile Include="DataTimeExtensions.cs" />
     <Compile Include="DataTableExtensions.cs" />
     <Compile Include="EnumExtensions.cs" />
+    <Compile Include="ImgFileExtensions.cs" />
     <Compile Include="ListExtensions.cs" />
     <Compile Include="NullableExtensions.cs" />
     <Compile Include="ObjectExtensions.cs" />

@@ -25,7 +25,7 @@
         </div>
         <div class="mws-panel-toolbar top clearfix">
             <ul>
-                <li><a href="BrandInfoEdit.aspx" class="mws-ic-16 ic-accept">添加</a></li>
+                <li><a href="BrandEdit.aspx" class="mws-ic-16 ic-accept">添加</a></li>
             </ul>
         </div>
         <asp:Label ID="lblMsg" runat="server"></asp:Label>
@@ -52,7 +52,7 @@
                                 <td><%#Eval("OrderIndex") %></td>
                                 <td><%#Eval("DataSourceDesc") %></td>
                                 <td>
-                                    <a href="BrandInfoEdit.aspx?id=<%#Eval("ID") %>">修改</a>
+                                    <a href="BrandEdit.aspx?id=<%#Eval("ID") %>">修改</a>
                                 </td>
                             </tr>
                         </ItemTemplate>
