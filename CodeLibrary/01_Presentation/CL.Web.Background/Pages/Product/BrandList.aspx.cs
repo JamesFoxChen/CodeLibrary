@@ -15,7 +15,6 @@ namespace CL.Web.Background.Pages.Product
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            // 给控件赋值, 用于创建列表html
             this.Pagnation.InnerQueryData = BindDataSource;
             if (!IsPostBack)
             {
@@ -41,8 +40,8 @@ namespace CL.Web.Background.Pages.Product
                 BrandName = txtBrandName.Text
             };
 
-            BrandInfoBiz brandInfoBiz = new BrandInfoBiz();
-            var data = brandInfoBiz.GetBrandList(request);
+            var biz = new BrandInfoBiz();
+            var data = biz.GetBrandList(request);
 
             base.BindList(this.rpt, this.divList, this.lblMsg, data.DataList, data.TotalCount, request.PageIndex, request.PageSize);
             this.Pagnation.hdTotalCount.Value = data.TotalCount.ToString();
@@ -50,16 +49,19 @@ namespace CL.Web.Background.Pages.Product
 
         protected void rpt_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            //var ProductInfoPopularBiz = new ProductInfoPopularBiz();
-            //if (e.CommandName == "Delete")
-            //{
-            //    BrandInfoBiz brandInfoBiz = new BrandInfoBiz();
-            //    //删除
-            //    int response = brandInfoBiz.DeleteBrand(e.CommandArgument.ToString(), base.CurrentAdminInfo.ID, base.CurrentAdminInfo.AdminName);
-            //    if (response == 0)
-            //        Response.Write("<script>alert('已关联商品的品牌不能删除！');</script>");
-            //}
-            //BindDataSource(1);
+            if (e.CommandName == "Delete")
+            {
+                var biz = new BrandInfoBiz();
+                if (!biz.DeleteBrandInfo(e.CommandArgument.ToString()).IsSuccess)
+                {
+                    Response.Write("<script>alert('操作失败！');location.href='BrandList.aspx';</script>");
+                }
+                else
+                {
+                    Response.Write("<script>alert('操作成功！');location.href='BrandList.aspx';</script>");
+                }
+            }
+            BindDataSource(1);
         }
     }
 }

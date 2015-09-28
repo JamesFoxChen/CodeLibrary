@@ -53,6 +53,7 @@
                                 <td><%#Eval("DataSourceDesc") %></td>
                                 <td>
                                     <a href="BrandEdit.aspx?id=<%#Eval("ID") %>">修改</a>
+                                    <asp:LinkButton ID="lbtnDelete" runat="server" CommandName="Delete" CommandArgument='<%#Eval("ID") %>' OnClientClick="return confirm('您确认要删除吗？')">删除</asp:LinkButton>
                                 </td>
                             </tr>
                         </ItemTemplate>

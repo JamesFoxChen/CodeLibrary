@@ -658,9 +658,6 @@
     <Content Include="Plugins\ueditor\lang\zh-cn\zh-cn.js" />
     <Content Include="Plugins\ueditor\net\net.sln" />
     <Content Include="Plugins\ueditor\net\test.html" />
-    <Content Include="Plugins\ueditor\net\upload\image\20140522\6353637004251513401429670.jpg" />
-    <Content Include="Plugins\ueditor\net\upload\image\20140522\6353637026901708924028989.jpg" />
-    <Content Include="Plugins\ueditor\net\upload\image\20140522\6353637567274616483625517.jpg" />
     <Content Include="Plugins\ueditor\themes\default\css\ueditor.css" />
     <Content Include="Plugins\ueditor\themes\default\css\ueditor.min.css" />
     <Content Include="Plugins\ueditor\themes\default\dialogbase.css" />
@@ -870,6 +867,8 @@
     <Content Include="Styles\icons\16\Thumbs.db" />
     <Content Include="Styles\icons\32\Thumbs.db" />
     <Content Include="packages.config" />
+    <Content Include="Handler\DelImgFils.ashx" />
+    <Content Include="Handler\ImgFils.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -3317,6 +3316,12 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handler\DelImgFils.ashx.cs">
+      <DependentUpon>DelImgFils.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\ImgFils.ashx.cs">
+      <DependentUpon>ImgFils.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Left.aspx.cs">
       <DependentUpon>Left.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3430,6 +3435,7 @@
     <Folder Include="Images\upload\" />
     <Folder Include="Pages\System\" />
     <Folder Include="Plugins\ueditor\net\Bin\" />
+    <Folder Include="Plugins\ueditor\net\upload\image\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\03_Business\CL.Biz.Background\CL.Biz.Background.csproj">
