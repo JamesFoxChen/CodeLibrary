@@ -48,14 +48,8 @@ namespace CL.Web.Background.Pages.Product
             if (e.CommandName == "Delete")
             {
                 var biz = new ProductInfoBiz();
-                if (!biz.DeleteProductInfo(e.CommandArgument.ToString()).IsSuccess)
-                {
-                    Response.Write("<script>alert('操作失败！');location.href='ProductList.aspx';</script>");
-                }
-                else
-                {
-                    Response.Write("<script>alert('操作成功！');location.href='ProductList.aspx';</script>");
-                }
+                bool result = biz.DeleteProductInfo(e.CommandArgument.ToString()).IsSuccess;
+                base.AlertCommon(result, "ProductList.aspx");
             }
             BindDataSource(1);
         }

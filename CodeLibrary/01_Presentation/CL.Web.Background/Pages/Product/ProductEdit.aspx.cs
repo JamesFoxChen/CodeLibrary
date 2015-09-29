@@ -15,6 +15,13 @@ namespace CL.Web.Background.Pages.Product
 {
     public partial class ProductEdit : BasePage
     {
+        public string ProductDesc;
+
+        private string RequestID
+        {
+            get { return Request["Id"]; }
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -28,9 +35,30 @@ namespace CL.Web.Background.Pages.Product
         }
         private void loadData()
         {
-           
+            var biz = new ProductInfoBiz();
+            ProductInfoRequest productInfo = biz.GetProductInfo(this.RequestID);
+            this.txtProductName.Text = productInfo.ProductName;
+            this.hdBrandID.Value = productInfo.BrandID;
+            this.txtBrandName.Value = new BrandInfoBiz().GetBrandInfo(productInfo.BrandID).BrandName;
+            this.txtMarketPrice.Text = productInfo.MarketPrice.ToString();
+            this.txtSalesPrice.Text = productInfo.SalesPrice.ToString();
+            this.txtBarCode.Text = productInfo.BarCode;
+            this.ckbShowStatus.Checked = productInfo.ShowStatus == (int)ShowStatus.上架;
+            if (!string.IsNullOrWhiteSpace(productInfo.DefaultPhotoUrl))
+            {
+                this.imgDefaultPhotoUrl.ImageUrl = QiniuImageMng.GetImage(productInfo.DefaultPhotoUrl, QiniuImageSize.小图);
+            }
+            if (!string.IsNullOrWhiteSpace(productInfo.PhotoUrl))
+            {
+                string[] productInfos = productInfo.PhotoUrl.Substring(0, productInfo.PhotoUrl.Length - 1).Split(';');
+                for (int i = 0; i < productInfos.Length; i++)
+                {
+                    literalPhotoUrl.Text += "<img id='imgs" + i + "' src=\"" + QiniuImageMng.GetImage(productInfos[i], QiniuImageSize.小图) + "\"><a href='javascript:void(0);' id='imga" + i + "' onclick='if(confirm(\"是否删除图片？\")){delImgFile(\"" + productInfos[i] + "\",\"imgs" + i + "\",\"imga" + i + "\");}'>删除</a>";
+                }
+            }
+            this.txtProductNote.Text = productInfo.ProductNote;
+            this.ProductDesc = productInfo.ProductDesc;
         }
-
 
         private void initProductList()
         {
@@ -47,7 +75,7 @@ namespace CL.Web.Background.Pages.Product
 
         protected void btnOK_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(Request["Id"]))
+            if (string.IsNullOrWhiteSpace(this.RequestID))
             {
                 addProductInfo();
             }
@@ -59,23 +87,28 @@ namespace CL.Web.Background.Pages.Product
 
         private ProductInfoRequest getModel()
         {
-            var ProductInfo = new ProductInfoRequest
+            var productInfo = new ProductInfoRequest
             {
                 ProductName = this.txtProductName.Text.Trim(),
                 BrandID = this.hdBrandID.Value,
+                MarketPrice = this.txtMarketPrice.Text.ToDecimalOrNull(),
+                SalesPrice = this.txtSalesPrice.Text.ToDecimalOrNull(),
+                BarCode = this.txtBarCode.Text.Trim(),
+                ShowStatus = (int)ShowStatus.上架,
                 PhotoUrl = this.hdPhotoUrl.Value,
+                ProductNote = this.txtProductNote.Text.Trim(),
+                ProductDesc = this.hdProductDesc.Value.Trim(),
                 OrderIndex = 1,
-                ShowStatus = (int)ShowStatus.上架
             };
 
-            //if (fileLogoImage.HasFile)
-            //{
-            //    string filePath = ImgFileExtensions.FileImg(fileLogoImage.PostedFile);
-            //    var result = QiniuImageMng.UploadImage(filePath);
-            //    ProductInfo.LogoImage = result.FileName;
+            if (this.fileDefaultPhoto.HasFile)
+            {
+                string filePath = ImgFileExtensions.FileImg(this.fileDefaultPhoto.PostedFile);
+                var result = QiniuImageMng.UploadImage(filePath);
+                productInfo.DefaultPhotoUrl = result.FileName;
 
-            //}
-            return ProductInfo;
+            }
+            return productInfo;
         }
 
         private void addProductInfo()
@@ -83,30 +116,18 @@ namespace CL.Web.Background.Pages.Product
             var productInfo = getModel();
             productInfo.DataSource = (int)DataSourceType.后台;
             var biz = new ProductInfoBiz();
-            if (!biz.AddProductInfo(productInfo).IsSuccess)
-            {
-                Response.Write("<script>alert('操作失败！');location.href='ProductList.aspx';</script>");
-            }
-            else
-            {
-                Response.Write("<script>alert('操作成功！');location.href='ProductList.aspx';</script>");
-            }
+            bool result = biz.AddProductInfo(productInfo).IsSuccess;
+             base.AlertCommon(result, "ProductList.aspx");
         }
 
         private void updateProductInfo()
         {
             var ProductInfo = getModel();
-            ProductInfo.ID = Request["Id"];
+            ProductInfo.ID = this.RequestID;
 
             var biz = new ProductInfoBiz();
-            if (!biz.UpdateProductInfo(ProductInfo).IsSuccess)
-            {
-                Response.Write("<script>alert('操作失败！');location.href='ProductList.aspx';</script>");
-            }
-            else
-            {
-                Response.Write("<script>alert('操作成功！');location.href='ProductList.aspx';</script>");
-            }
+            bool result = biz.UpdateProductInfo(ProductInfo).IsSuccess;
+            base.AlertCommon(result, "ProductList.aspx");
         }
     }
 }

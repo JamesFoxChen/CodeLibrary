@@ -76,17 +76,15 @@ namespace CL.DAL.DataModel.Entities
         /// </summary>
         public string DisplayID { get; set; }
 
-   
-
         /// <summary>
         ///积分
         /// </summary>
-        public string Integral { get; set; }
+        public decimal? Integral { get; set; }
 
         /// <summary>
         ///市场价
         /// </summary>
-        public string MarketPrice { get; set; }
+        public decimal? MarketPrice { get; set; }
 
         /// <summary>
         ///序号
@@ -116,7 +114,7 @@ namespace CL.DAL.DataModel.Entities
         /// <summary>
         ///销售价
         /// </summary>
-        public string SalesPrice { get; set; }
+        public decimal? SalesPrice { get; set; }
 
         /// <summary>
         ///销售数量

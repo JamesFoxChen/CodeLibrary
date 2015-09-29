@@ -63,5 +63,30 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Request
         /// </summary>
         public Int32? DataSource { get; set; }
 
+        /// <summary>
+        /// 市场价
+        /// </summary>
+        public Decimal? MarketPrice { get; set; }
+
+        /// <summary>
+        /// 优惠价
+        /// </summary>
+        public Decimal? SalesPrice { get; set; }
+
+        /// <summary>
+        /// 条形码
+        /// </summary>
+        public String BarCode { get; set; }
+
+
+        /// <summary>
+        /// 商品介绍
+        /// </summary>
+        public String ProductNote { get; set; }
+
+        /// <summary>
+        /// 商品描述
+        /// </summary>
+        public String ProductDesc { get; set; }
      }
 }

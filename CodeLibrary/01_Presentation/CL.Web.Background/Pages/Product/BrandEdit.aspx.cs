@@ -73,7 +73,6 @@ namespace CL.Web.Background.Pages.Product
                 string filePath = ImgFileExtensions.FileImg(fileLogoImage.PostedFile);
                 var result = QiniuImageMng.UploadImage(filePath);
                 brandInfo.LogoImage = result.FileName;
-
             }
             return brandInfo;
         }

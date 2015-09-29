@@ -90,7 +90,7 @@
 
     <script type="text/javascript">
         //加载富文本框
-        var ProductInfos = UE.getEditor('Introduce');
+        UE.getEditor('Introduce');
 
         function check() {
             $("#ContentPlaceHolder1_hdIntroduce").val(UE.getEditor('Introduce').getContent());
