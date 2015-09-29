@@ -23,12 +23,12 @@ namespace CL.Plugin.Qiniu
         /// <summary>
         /// 七牛外域名
         /// </summary>
-        public static readonly string Domain = "7b1f5a.com1.z0.glb.clouddn.com";// ConfigurationManager.AppSettings["QiniuDomain"];
+        public static readonly string Domain = "7xn3t4.com1.z0.glb.clouddn.com";// ConfigurationManager.AppSettings["QiniuDomain"];
 
         /// <summary>
         /// 图片URL前缀
         /// </summary>
-        public static string ImageUrlPredix = "http://7b1f5a.com1.z0.glb.clouddn.com/";//ConfigurationManager.AppSettings["QiniuImageUrlPredix"];
+        public static string ImageUrlPredix = "http://7xn3t4.com1.z0.glb.clouddn.com/";//ConfigurationManager.AppSettings["QiniuImageUrlPredix"];
 
         public static string VERSION = "6.1.8";
 
@@ -38,11 +38,11 @@ namespace CL.Plugin.Qiniu
         /// <summary>
         /// 七牛提供的公钥，用于识别用户
         /// </summary>
-        public static string ACCESS_KEY = "HVexchF05pFWdyuHMs2vlHkplOhlQN3bHlHPZW8x";
+        public static string ACCESS_KEY = "MhIyHDodWA7z0cAxzndCnUcpfNip8x-4jD1nuzC9";
         /// <summary>
         /// 七牛提供的秘钥，不要在客户端初始化该变量
         /// </summary>
-        public static string SECRET_KEY = "8iSV6oY25A5NlzjV5bQUTDnr4UsA8pH8PSVao3pY";
+        public static string SECRET_KEY = "CQM5Y9nHKhngUIkwggYUA7PNe1rxCgiiMAxWyJJn";
         #endregion
 
         #region 七牛服务器地址

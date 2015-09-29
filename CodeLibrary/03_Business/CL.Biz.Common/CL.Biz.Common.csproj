@@ -51,6 +51,7 @@
     <Compile Include="Constant.cs" />
     <Compile Include="PageUtil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UtilityBiz.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\04_DataAccess\CL.DAL.DataAccess\CL.DAL.DataAccess.csproj">

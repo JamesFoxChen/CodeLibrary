@@ -36,6 +36,7 @@
                 <thead>
                     <tr>
                         <th>产品名称</th>
+                        <th>品牌名称</th>
                         <th>状态</th>
                         <th>排序</th>
                         <th>来源</th>
@@ -47,6 +48,7 @@
                         <ItemTemplate>
                             <tr class="gradeX">
                                 <td><%#Eval("ProductName") %></td>
+                                <td><%#Eval("BrandName") %></td>
                                 <td>
                                     <%#Eval("ShowStatusDesc") %>
                                 </td>

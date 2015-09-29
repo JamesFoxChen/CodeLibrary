@@ -34,9 +34,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="Qiniu.4.5">
-      <HintPath>..\..\Library\Qiniu.4.5.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -49,6 +46,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Qiniu4.5\Auth\digest\Mac.cs" />
+    <Compile Include="Qiniu4.5\Auth\PutAuthClient.cs" />
+    <Compile Include="Qiniu4.5\Auth\QiniuAuthClient.cs" />
+    <Compile Include="Qiniu4.5\FileOp\Exif.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ExifRet.cs" />
+    <Compile Include="Qiniu4.5\FileOp\FileOpClient.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ImageInfo.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ImageInfoRet.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ImageMogrify.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ImageView.cs" />
+    <Compile Include="Qiniu4.5\FileOp\ImageWaterMarker.cs" />
+    <Compile Include="Qiniu4.5\FileOp\TextWaterMarker.cs" />
+    <Compile Include="Qiniu4.5\FileOp\WaterMarker.cs" />
+    <Compile Include="Qiniu4.5\IO\FileParameter.cs" />
+    <Compile Include="Qiniu4.5\IO\IOClient.cs" />
+    <Compile Include="Qiniu4.5\IO\MultiPart.cs" />
+    <Compile Include="Qiniu4.5\IO\PutExtra.cs" />
+    <Compile Include="Qiniu4.5\IO\PutRet.cs" />
+    <Compile Include="Qiniu4.5\IO\Resumable\ResumablePut.cs" />
+    <Compile Include="Qiniu4.5\IO\Resumable\ResumablePutExtra.cs" />
+    <Compile Include="Qiniu4.5\IO\Resumable\ResumablePutRet.cs" />
+    <Compile Include="Qiniu4.5\IO\Resumable\Settings.cs" />
+    <Compile Include="Qiniu4.5\PFOP\Mkzip.cs" />
+    <Compile Include="Qiniu4.5\PreFetch\PreFetchClient.cs" />
+    <Compile Include="Qiniu4.5\RPC\CallRet.cs" />
+    <Compile Include="Qiniu4.5\RPC\Client.cs" />
+    <Compile Include="Qiniu4.5\RSF\DumpItem.cs" />
+    <Compile Include="Qiniu4.5\RSF\RSFClient.cs" />
+    <Compile Include="Qiniu4.5\RS\BatchRet.cs" />
+    <Compile Include="Qiniu4.5\RS\Entry.cs" />
+    <Compile Include="Qiniu4.5\RS\GetPolicy.cs" />
+    <Compile Include="Qiniu4.5\RS\Pfop.cs" />
+    <Compile Include="Qiniu4.5\RS\PutPolicy.cs" />
+    <Compile Include="Qiniu4.5\RS\RSClient.cs" />
+    <Compile Include="Qiniu4.5\RS\RSPath.cs" />
+    <Compile Include="Qiniu4.5\Util\Base64UrlSafe.cs" />
+    <Compile Include="Qiniu4.5\Util\CRC32.cs" />
+    <Compile Include="Qiniu4.5\Util\IO.cs" />
+    <Compile Include="Qiniu4.5\Util\QiniuJsonHelper.cs" />
+    <Compile Include="Qiniu4.5\Util\StreamEx.cs" />
+    <Compile Include="Qiniu4.5\Util\StringEx.cs" />
     <Compile Include="QiniuConfig.cs" />
     <Compile Include="QiniuHelper.cs" />
     <Compile Include="QiniuImageMng.cs" />

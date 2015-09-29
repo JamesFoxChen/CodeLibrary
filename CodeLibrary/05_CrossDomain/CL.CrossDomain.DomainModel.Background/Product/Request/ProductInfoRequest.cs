@@ -14,9 +14,19 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Request
         public String ID { get; set; }
 
         /// <summary>
+        /// 显示编号
+        /// </summary>
+        public String DisplayID { get; set; }
+
+        /// <summary>
         /// 商品名称
         /// </summary>
         public String ProductName { get; set; }
+
+        /// <summary>
+        /// 品牌编号
+        /// </summary>
+        public String BrandID { get; set; }
 
         /// <summary>
         /// 默认商品图片

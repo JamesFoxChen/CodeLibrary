@@ -27,7 +27,7 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Response
         /// <summary>
         /// 产品名称
         /// </summary>
-        public String ProductdName { get; set; }
+        public String ProductName { get; set; }
 
         /// <summary>
         /// 上下架状态

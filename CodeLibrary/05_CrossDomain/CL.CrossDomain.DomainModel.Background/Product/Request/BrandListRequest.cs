@@ -8,6 +8,13 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Request
 {
     public class BrandListRequest
     {
+
+        public BrandListRequest()
+        {
+            this.PageIndex = 1;
+            this.PageSize = 10;
+        }
+
         /// <summary>
         /// 当前第几页
         /// </summary>

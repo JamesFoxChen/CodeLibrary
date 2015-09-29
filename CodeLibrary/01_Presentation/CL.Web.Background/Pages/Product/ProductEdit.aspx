@@ -25,19 +25,34 @@
                     <input type="hidden" id="BID" value="" runat="server" />
                     <div class="mws-form-inline">
                         <div class="mws-form-row">
-                            <label>产品名称<span class="RedStar">*</span></label>
+                            <label>商品名称<span class="RedStar">*</span></label>
                             <div class="mws-form-item large">
                                 <asp:TextBox ID="txtProductName" runat="server" class="mws-textinput required" />
                             </div>
                         </div>
+                         <div class="mws-form-row">
+                            <label>商品品牌<span class="RedStar">*</span></label>
+                            <div class="mws-form-item small ">
+                                <asp:HiddenField ID="hdBrandID" runat="server" />
+                                <input type="text" runat="server" readonly="readonly" id="txtBrandName" class="mws-textinput required" />
+                                <input type="button" id="mws-jui-dialog-mdl-btn" class="mws-button blue" value="选择" />
 
+                                <div id="mws-jui-dialog">
+                                    <div class="mws-form">
+                                        <ul class="mws-form-list inline">
+                                            <asp:Literal ID="ltlBrandList" runat="server" ></asp:Literal>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         <div class="mws-form-row">
                             <label>商品图片<span class="RedStar">*</span></label>
                             <div class="mws-form-item large">
                                 <asp:Literal ID="literalPhotoUrl" runat="server"></asp:Literal>
                                 <div id="box">
                                     <div id="test"></div>
-                                    <input type="hidden" runat="server" id="hiddenPhotoUrl" class="mws-textinput" />
+                                    <input type="hidden" runat="server" id="hdPhotoUrl" class="mws-textinput" />
                                 </div>
                             </div>
                         </div>
@@ -50,11 +65,38 @@
             </div>
         </div>
     </div>
-
+<%--    <script src="../../Scripts/demo.js"></script>--%>
     <script type="text/javascript">
+        $("#mws-jui-dialog-mdl-btn").bind("click", function (event) {
+            $("#mws-jui-dialog").dialog("option", { modal: true }).dialog("open");
+            event.preventDefault();
+        });
+
+        $("#mws-jui-dialog").dialog({
+            autoOpen: false,
+            title: "Brand",
+            modal: true,
+            width: "640",
+            //buttons: [{
+            //		text: "Close Dialog", 
+            //		click: function() {
+            //			$( this ).dialog( "close" );
+            //		}}]
+        });
+
+        //选择分类时触发
+        function BrandSelected(valueId, valueName) {
+            var brandID = $("input[id$='hdBrandID']");
+            if (brandID.val() != valueId) {
+                brandID.val(valueId);
+                $("input[id$='txtBrandName']").val(valueName);
+            }
+            $("#mws-jui-dialog").dialog("close");
+        }
 
         function check() {
         }
+
 
         function delImgFile(filepath, id, a) {
             $.ajax({
@@ -72,7 +114,7 @@
             });
         }
 
-        $('#test').diyUpload($("#ContentPlaceHolder1_hiddenPhotoUrl"), {
+        $('#test').diyUpload($("#ContentPlaceHolder1_hdPhotoUrl"), {
             url: '/Handler/ImgFils.ashx',
             success: function (data) {
                 console.info(data);
