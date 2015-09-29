@@ -27,10 +27,19 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Request
         public string ProductName { get; set; }
 
         /// <summary>
+        /// 显示编号
+        /// </summary>
+        public string DisplayID { get; set; }
+
+        /// <summary>
         /// 品牌编号
         /// </summary>
         public string BrandID { get; set; }
 
         public int? DataSource { get; set; }
+
+        public DateTime? CreatedStartDate { get; set; }
+
+        public DateTime? CreatedEndDate { get; set; }
     }
 }

@@ -45,6 +45,16 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Response
         public Int32? OrderIndex { get; set; }
 
         /// <summary>
+        /// 市场价
+        /// </summary>
+        public decimal? MarketPrice { get; set; }
+
+        /// <summary>
+        /// 销售价
+        /// </summary>
+        public decimal? SalesPrice { get; set; }
+
+        /// <summary>
         /// 创建时间
         /// </summary>
         public DateTime? Created { get; set; }
@@ -63,5 +73,11 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Response
         /// 数据来源描述
         /// </summary>
         public string DataSourceDesc { get; set; }
+
+
+        /// <summary>
+        /// 显示编号
+        /// </summary>
+        public string DisplayID { get; set; }
     }
 }

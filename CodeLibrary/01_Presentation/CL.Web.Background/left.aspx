@@ -88,7 +88,7 @@
                 <li>
                     <a href="#" class="mws-i-24 i-blocks-images firstMenu">商品管理</a>
                     <ul>
-                       <li><a href="/Pages/Product/BrandList.aspx" target="myframe">品牌信息</a></li>
+                        <li><a href="/Pages/Product/BrandList.aspx" target="myframe">品牌信息</a></li>
                         <li><a href="/Pages/Product/ProductList.aspx" target="myframe">商品信息</a></li>
                     </ul>
                 </li>
@@ -98,7 +98,12 @@
                         <li><a href="/Pages/Order/OrderList.aspx" target="myframe">订单信息</a></li>
                     </ul>
                 </li>
-
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">进销存</a>
+                    <ul>
+                        <li><a href="/Pages/Invoicing/StockInLog.aspx" target="myframe">入库流水</a></li>
+                    </ul>
+                </li>
                 <li>
                     <a href="#" class="mws-i-24 i-blocks-images firstMenu">其它</a>
                     <ul>

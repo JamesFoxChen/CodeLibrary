@@ -113,6 +113,9 @@
     <Content Include="Index.html" />
     <Content Include="Left.aspx" />
     <Content Include="Pages\Common\ErrorPage.aspx" />
+    <Content Include="Pages\Common\ProductListQuery.aspx" />
+    <Content Include="Pages\Invoicing\StockIn.aspx" />
+    <Content Include="Pages\Invoicing\StockInLog.aspx" />
     <Content Include="Pages\Order\OrderDetail.aspx" />
     <Content Include="Pages\Order\OrderList.aspx" />
     <Content Include="Pages\Other\GenerateEntity.aspx" />
@@ -3341,6 +3344,27 @@
     </Compile>
     <Compile Include="Pages\Common\ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Common\ProductListQuery.aspx.cs">
+      <DependentUpon>ProductListQuery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Common\ProductListQuery.aspx.designer.cs">
+      <DependentUpon>ProductListQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Invoicing\StockIn.aspx.cs">
+      <DependentUpon>StockIn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Invoicing\StockIn.aspx.designer.cs">
+      <DependentUpon>StockIn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Invoicing\StockInLog.aspx.cs">
+      <DependentUpon>StockInLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Invoicing\StockInLog.aspx.designer.cs">
+      <DependentUpon>StockInLog.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Order\OrderDetail.aspx.cs">
       <DependentUpon>OrderDetail.aspx</DependentUpon>

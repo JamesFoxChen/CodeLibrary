@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Invoicing\Request\StockInRequest.cs" />
+    <Compile Include="Invoicing\Request\StockInLogRequest.cs" />
+    <Compile Include="Invoicing\Response\StockInLogResponse.cs" />
     <Compile Include="Other\Request\DBEntityGenerateRequest.cs" />
     <Compile Include="Other\Response\DBTablesColumnRepsosne.cs" />
     <Compile Include="Other\Response\DBTablesRepsosne.cs" />

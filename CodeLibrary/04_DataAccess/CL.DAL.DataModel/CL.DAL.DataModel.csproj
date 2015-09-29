@@ -47,6 +47,7 @@
     <Compile Include="Entities\OrderProductInfo.cs" />
     <Compile Include="Entities\ProductInfo.cs" />
     <Compile Include="Entities\RightInfo.cs" />
+    <Compile Include="Entities\StockInLog.cs" />
     <Compile Include="Entities\UserInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
