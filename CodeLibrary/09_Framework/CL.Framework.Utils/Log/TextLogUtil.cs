@@ -155,7 +155,7 @@ namespace CL.Framework.Utils
         public static void ErrorWithException(string s, Exception ex)
         {
             if ((int)logLevel <= (int)LogLevel.Error)
-                Log(LogLevel.Error, s);
+                Log(LogLevel.Error, s + "\r\nMsg：" + ex.Message + "\r\nStack：" + ex.StackTrace);
 
             if (ex.InnerException != null)
             {
