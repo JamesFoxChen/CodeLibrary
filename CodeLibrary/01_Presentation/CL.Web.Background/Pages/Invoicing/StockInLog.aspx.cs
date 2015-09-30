@@ -43,7 +43,7 @@ namespace CL.Web.Background.Pages.Invoicing
         {
             var request = new StockInLogRequest
             {
-                ProductID = this.hfProductID.Value.Trim(),
+                ProductID = this.hdProductID.Value.Trim(),
                 BarCode = this.txtBarCode.Text.Trim(),
                 StockInStart = this.txtDateStart.Text.ToDateTimeOrNull(),
                 StockInEnd = this.txtDateEnd.Text.ToMaxOfDay(),

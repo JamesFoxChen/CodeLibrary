@@ -101,6 +101,7 @@
                 <li>
                     <a href="#" class="mws-i-24 i-blocks-images firstMenu">进销存</a>
                     <ul>
+                        <li><a href="/Pages/Invoicing/StockIn.aspx" target="myframe">入库操作</a></li>
                         <li><a href="/Pages/Invoicing/StockInLog.aspx" target="myframe">入库流水</a></li>
                     </ul>
                 </li>

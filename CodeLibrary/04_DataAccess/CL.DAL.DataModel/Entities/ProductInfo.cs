@@ -121,6 +121,7 @@ namespace CL.DAL.DataModel.Entities
         /// </summary>
         public int? SellCount { get; set; }
 
+
         /// <summary>
         ///上架状态
         /// </summary>

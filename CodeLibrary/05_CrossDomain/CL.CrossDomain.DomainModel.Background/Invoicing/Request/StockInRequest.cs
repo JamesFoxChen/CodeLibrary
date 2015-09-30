@@ -8,6 +8,8 @@ namespace CL.CrossDomain.DomainModel.Background.Invoicing.Request
 {
     public class StockInRequest
     {
+        public string ID { get; set; }
+
         public string ProductID { get; set; }
 
         public string BarCode { get; set; }

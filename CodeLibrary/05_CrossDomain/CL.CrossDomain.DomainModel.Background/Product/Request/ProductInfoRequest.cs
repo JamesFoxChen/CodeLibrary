@@ -59,6 +59,16 @@ namespace CL.CrossDomain.DomainModel.Background.Product.Request
         public DateTime? Updated { get; set; }
 
         /// <summary>
+        /// 库存数量
+        /// </summary>
+        public Int32? StorageCount { get; set; }
+
+        /// <summary>
+        /// 销售数量
+        /// </summary>
+        public Int32? SellCount { get; set; }
+
+        /// <summary>
         /// 数据来源
         /// </summary>
         public Int32? DataSource { get; set; }

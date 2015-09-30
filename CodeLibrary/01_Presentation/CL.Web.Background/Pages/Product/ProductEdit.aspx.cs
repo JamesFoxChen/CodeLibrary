@@ -26,7 +26,7 @@ namespace CL.Web.Background.Pages.Product
         {
             if (!IsPostBack)
             {
-                initProductList();
+                initBrandList();
                 if (Request["Id"] != null)
                 {
                     loadData();
@@ -60,7 +60,7 @@ namespace CL.Web.Background.Pages.Product
             this.ProductDesc = productInfo.ProductDesc;
         }
 
-        private void initProductList()
+        private void initBrandList()
         {
             var response =
                new BrandInfoBiz().GetBrandList(new BrandListRequest
@@ -117,7 +117,7 @@ namespace CL.Web.Background.Pages.Product
             productInfo.DataSource = (int)DataSourceType.后台;
             var biz = new ProductInfoBiz();
             bool result = biz.AddProductInfo(productInfo).IsSuccess;
-             base.AlertCommon(result, "ProductList.aspx");
+             base.AlertAndRedirectCommon(result, "ProductList.aspx");
         }
 
         private void updateProductInfo()
@@ -127,7 +127,7 @@ namespace CL.Web.Background.Pages.Product
 
             var biz = new ProductInfoBiz();
             bool result = biz.UpdateProductInfo(ProductInfo).IsSuccess;
-            base.AlertCommon(result, "ProductList.aspx");
+            base.AlertAndRedirectCommon(result, "ProductList.aspx");
         }
     }
 }

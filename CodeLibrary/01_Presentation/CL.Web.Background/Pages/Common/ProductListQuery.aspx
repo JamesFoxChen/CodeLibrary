@@ -10,7 +10,7 @@
         function SelectProduct(data) {
             try {
                 parent.parent.document.getElementById('ContentPlaceHolder1_txtProductName').value = data.productName;
-                parent.parent.document.getElementById('ContentPlaceHolder1_hfProductID').value = data.id;
+                parent.parent.document.getElementById('ContentPlaceHolder1_hdProductID').value = data.id;
                 parent.parent.document.getElementById('ContentPlaceHolder1_txtProductName').focus();
             } catch (ex) { };
             if (typeof parent.parent.selectProductCallBack == 'function') {

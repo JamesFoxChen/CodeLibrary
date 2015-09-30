@@ -49,7 +49,7 @@ namespace CL.Web.Background.Pages.Product
             {
                 var biz = new ProductInfoBiz();
                 bool result = biz.DeleteProductInfo(e.CommandArgument.ToString()).IsSuccess;
-                base.AlertCommon(result, "ProductList.aspx");
+                base.AlertAndRedirectCommon(result, "ProductList.aspx");
             }
             BindDataSource(1);
         }

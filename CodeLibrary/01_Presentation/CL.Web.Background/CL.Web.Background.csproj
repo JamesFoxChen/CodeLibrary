@@ -779,7 +779,11 @@
     <Content Include="Scripts\greybox\next.gif" />
     <Content Include="Scripts\greybox\prev.gif" />
     <Content Include="Scripts\greybox\w_close.gif" />
+    <Content Include="Scripts\jquery-1.11.3.js" />
+    <Content Include="Scripts\jquery-1.11.3.min.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\mws.js" />
     <Content Include="Scripts\My97DatePickerBeta\calendar.js" />
@@ -806,6 +810,7 @@
     <Content Include="Scripts\My97DatePickerBeta\开发包\skin\whyGreen\bg.jpg" />
     <Content Include="Scripts\My97DatePickerBeta\开发包\skin\whyGreen\datepicker.css" />
     <Content Include="Scripts\My97DatePickerBeta\开发包\skin\whyGreen\img.gif" />
+    <Content Include="Scripts\nativeAjax.js" />
     <Content Include="Scripts\spectrum\spectrum.css" />
     <Content Include="Scripts\spectrum\spectrum.js" />
     <Content Include="Scripts\themer.js" />
@@ -835,43 +840,12 @@
     <Content Include="Plugins\ueditor\third-party\video-js\font\vjs.eot" />
     <Content Include="Plugins\ueditor\third-party\video-js\font\vjs.ttf" />
     <Content Include="Plugins\ueditor\third-party\video-js\font\vjs.woff" />
-    <Content Include="Styles\fonts\ptsans\PTC55F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTC55F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTC55F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTC55F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTC75F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTC75F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTC75F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTC75F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTN57F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTN57F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTN57F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTN57F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTN77F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTN77F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTN77F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTN77F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS55F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS55F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTS55F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTS55F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS56F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS56F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTS56F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTS56F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS75F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS75F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTS75F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTS75F-webfontd41d.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS76F-webfont.eot" />
-    <Content Include="Styles\fonts\ptsans\PTS76F-webfont.ttf" />
-    <Content Include="Styles\fonts\ptsans\PTS76F-webfont.woff" />
-    <Content Include="Styles\fonts\ptsans\PTS76F-webfontd41d.eot" />
     <Content Include="Styles\icons\16\Thumbs.db" />
     <Content Include="Styles\icons\32\Thumbs.db" />
     <Content Include="packages.config" />
     <Content Include="Handler\DelImgFils.ashx" />
     <Content Include="Handler\ImgFils.ashx" />
+    <Content Include="Handler\Ajax.ashx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -895,15 +869,6 @@
     <Content Include="Styles\core\themer.css" />
     <Content Include="Styles\demo.css" />
     <Content Include="Styles\fluid.css" />
-    <Content Include="Styles\fonts\ptsans\PTC55F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTC75F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTN57F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTN77F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTS55F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTS56F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTS75F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\PTS76F-webfont.svg" />
-    <Content Include="Styles\fonts\ptsans\stylesheet.css" />
     <Content Include="Styles\icons\16\accept.png" />
     <Content Include="Styles\icons\16\add.png" />
     <Content Include="Styles\icons\16\alarm.png" />
@@ -3321,6 +3286,9 @@
     </Compile>
     <Compile Include="Handler\DelImgFils.ashx.cs">
       <DependentUpon>DelImgFils.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\Ajax.ashx.cs">
+      <DependentUpon>Ajax.ashx</DependentUpon>
     </Compile>
     <Compile Include="Handler\ImgFils.ashx.cs">
       <DependentUpon>ImgFils.ashx</DependentUpon>
