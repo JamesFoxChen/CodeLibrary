@@ -1,0 +1,4 @@
+C:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataModel\bin\Debug\CL.DAL.DataModel.dll
+C:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataModel\bin\Debug\CL.DAL.DataModel.pdb
+C:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataModel\obj\Debug\CL.DAL.DataModel.dll
+C:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataModel\obj\Debug\CL.DAL.DataModel.pdb

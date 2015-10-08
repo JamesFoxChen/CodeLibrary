@@ -1,0 +1,28 @@
+﻿body
+{
+    text-align:center;
+    }
+.divContent
+{
+    width:700px;
+    text-align:left;
+    font-size:12px;
+}
+.divContent p:hover
+{
+    background-color:Orange;
+}
+.dt_p
+{
+    width:18%;
+    float:left;
+    height:20px;
+}
+
+.dtcss
+{
+    background-color:Lime;
+    width:100%;
+    line-height:20px;
+    height:20px;
+}

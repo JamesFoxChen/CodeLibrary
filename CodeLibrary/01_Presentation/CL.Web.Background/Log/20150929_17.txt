@@ -1,0 +1,40 @@
+﻿[Error] @17:25:31_7749 #10 CL.Biz.Background.Product.ProductInfoBiz GetProductInfo() - 根据id获取产品(GetProductInfo)
+Msg：The 'MarketPrice' property on 'ProductInfo' could not be set to a 'System.Decimal' value. You must set this property to a non-null value of type 'System.String'. 
+Stack：   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 CL.Biz.Background.Product.ProductInfoBiz.GetProductInfo(String id) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 92
+[Error] @17:25:47_2577 #42 CL.Biz.Background.Product.ProductInfoBiz GetProductInfo() - 根据id获取产品(GetProductInfo)
+Msg：The 'MarketPrice' property on 'ProductInfo' could not be set to a 'System.Decimal' value. You must set this property to a non-null value of type 'System.String'. 
+Stack：   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 CL.Biz.Background.Product.ProductInfoBiz.GetProductInfo(String id) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 92
+[Error] @17:26:05_4108 #10 CL.Biz.Background.Product.ProductInfoBiz GetProductInfo() - 根据id获取产品(GetProductInfo)
+Msg：The 'MarketPrice' property on 'ProductInfo' could not be set to a 'System.Decimal' value. You must set this property to a non-null value of type 'System.String'. 
+Stack：   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 CL.Biz.Background.Product.ProductInfoBiz.GetProductInfo(String id) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 92
+[Error] @17:26:35_9975 #10 CL.Biz.Background.Product.ProductInfoBiz GetProductInfo() - 根据id获取产品(GetProductInfo)
+Msg：The 'MarketPrice' property on 'ProductInfo' could not be set to a 'System.Decimal' value. You must set this property to a non-null value of type 'System.String'. 
+Stack：   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 CL.Biz.Background.Product.ProductInfoBiz.GetProductInfo(String id) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 92

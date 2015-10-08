@@ -1,0 +1,4 @@
+C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel\bin\Debug\CL.CrossDomain.DomainModel.dll
+C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel\bin\Debug\CL.CrossDomain.DomainModel.pdb
+C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel\obj\Debug\CL.CrossDomain.DomainModel.dll
+C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel\obj\Debug\CL.CrossDomain.DomainModel.pdb

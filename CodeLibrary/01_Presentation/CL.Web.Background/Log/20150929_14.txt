@@ -1,0 +1,28 @@
+﻿[Error] @14:38:12_5726 #17 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - 新增产品信息(AddProductInfo)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 CL.Biz.Background.Product.ProductInfoBiz.AddProductInfo(ProductInfoRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 100
+[Error] @14:38:12_5746 #17 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @14:40:02_6749 #9 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - 新增产品信息(AddProductInfo)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 CL.Biz.Background.Product.ProductInfoBiz.AddProductInfo(ProductInfoRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 100
+[Error] @14:40:02_6749 #9 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @14:42:23_0440 #31 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - 新增产品信息(AddProductInfo)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 CL.Biz.Background.Product.ProductInfoBiz.AddProductInfo(ProductInfoRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 100
+[Error] @14:42:23_0440 #31 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @14:42:49_3795 #31 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - 新增产品信息(AddProductInfo)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 CL.Biz.Background.Product.ProductInfoBiz.AddProductInfo(ProductInfoRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\ProductInfoBiz.cs:行号 100
+[Error] @14:42:49_3805 #31 CL.Biz.Background.Product.ProductInfoBiz AddProductInfo() - (InnerException):An error occurred while updating the entries. See the inner exception for details.

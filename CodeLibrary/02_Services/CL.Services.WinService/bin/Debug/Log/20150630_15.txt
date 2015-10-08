@@ -1,0 +1,80 @@
+﻿[Debug] @15:11:47_0010 #11 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:11:47_0020 #11 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Error] @15:47:55_5021 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Error] @15:48:20_4125 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Error] @15:48:40_1696 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Debug] @15:48:40_1736 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154840
+[Debug] @15:48:41_1767 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154841
+[Debug] @15:48:42_1777 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154842
+[Debug] @15:48:43_1778 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154843
+[Debug] @15:48:44_1779 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154844
+[Debug] @15:48:45_1779 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154845
+[Debug] @15:48:46_1780 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154846
+[Debug] @15:48:47_1780 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154847
+[Debug] @15:48:48_1781 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154848
+[Debug] @15:48:49_1791 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154849
+[Debug] @15:48:50_1802 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154850
+[Debug] @15:48:51_1813 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154851
+[Debug] @15:48:52_1823 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154852
+[Debug] @15:48:53_1834 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154853
+[Debug] @15:48:54_1834 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154854
+[Debug] @15:48:55_1845 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154855
+[Debug] @15:48:56_1875 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154856
+[Debug] @15:48:57_1886 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154857
+[Debug] @15:48:58_1887 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154858
+[Debug] @15:48:59_1907 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154859
+[Debug] @15:49:01_0008 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154901
+[Debug] @15:49:02_0019 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154902
+[Debug] @15:49:03_0049 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154903
+[Debug] @15:49:04_0050 #12 CL.Services.WinService.TopshelfService executeLogDataInner() - 154904
+[Error] @15:55:59_9618 #9 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Error] @15:56:12_0085 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Error] @15:56:32_4326 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Debug] @15:56:35_3588 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:35_3598 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:36_4689 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:36_4689 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:37_5439 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:37_5469 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:38_6680 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:38_6690 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:39_7601 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:39_7611 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:40_8201 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:40_8221 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:41_9122 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:41_9122 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:42_9722 #13 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:42_9742 #13 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:44_0803 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:44_0863 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:45_1884 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:45_1944 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:46_2954 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:46_3034 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:47_4185 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:47_4205 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:48_5266 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:48_5326 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:49_6336 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:49_6376 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:51_5687 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:51_5737 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:52_6918 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:52_6948 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:53_7679 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:53_7709 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:54_8759 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:54_8829 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:56_0460 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:56_0500 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:57_1381 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:57_1451 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Debug] @15:56:58_2451 #14 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:56:58_2481 #14 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Error] @15:57:07_2516 #9 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Debug] @15:57:08_2647 #6 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:57:08_2667 #6 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON
+[Error] @15:59:09_8346 #10 CL.Services.WinService.TopshelfService Start() - 不要关本窗体，谢谢-陈志
+[Debug] @15:59:10_8497 #7 CL.Services.WinService.TopshelfService sendCmd() - cd C:\Program Files (x86)\Log Parser 2.2\
+[Debug] @15:59:10_8507 #7 CL.Services.WinService.TopshelfService sendCmd() - logparser "SELECT Id,TO_LOCALTIME(TO_TIMESTAMP(ADD(TO_STRING(date, 'yyyy-MM-dd '), TO_STRING(time, 'hh:mm:ss')),'yyyy-MM-dd hh:mm:ss')) AS RequestTime,* FROM C:\u_ex15063015.log TO IISLog_table WHERE sc-status<>200 OR time-taken>200" -o:SQL -server:192.168.1.209 -driver:"SQL Server" -database:Log_IIS -username:sa -password:test@123 -createtable:ON

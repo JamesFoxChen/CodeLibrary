@@ -1,0 +1,6 @@
+﻿[Error] @16:04:41_1994 #31 CL.Biz.Background.Product.BrandInfoBiz UpdateBrandInfo() - 更新品牌信息(UpdateBrandInfo)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Product.BrandInfoBiz.UpdateBrandInfo(BrandInfoRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Product\BrandInfoBiz.cs:行号 123
+[Error] @16:05:34_7715 #17 CL.Biz.Background.Product.BrandInfoBiz UpdateBrandInfo() - 更新品牌信息(UpdateBrandInfo)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Product.BrandInfoBiz.UpdateBrandInfo(BrandInfoRequest request)

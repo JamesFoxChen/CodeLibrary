@@ -1,0 +1,26 @@
+
+
+UploadHandler 在
+
+设置上传图片
+string filePath = ImgFileExtensions.FileImg(file);
+var result = QiniuImageMng.UploadImage(filePath);
+Result.Url = QiniuImageMng.GetImage(result.FileName, QiniuImageSize.原图);
+Result.State = UploadState.Success;
+
+
+
+<div class="mws-form-item large">
+    &nbsp;<script id="Introduce" type="text/plain" style="width: 800px; height: 400px;"><%=Introduce %> </script>
+    <input type="hidden" runat="server" id="hdIntroduce" />
+</div>
+
+
+<script type="text/javascript">
+//加载富文本框
+var ProductInfos = UE.getEditor('Introduce');
+
+function check() {
+$("#ContentPlaceHolder1_hdIntroduce").val(UE.getEditor('Introduce').getContent());
+}
+</script>

@@ -1,0 +1,4 @@
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Mail\bin\Debug\CL.Plugin.Mail.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Mail\bin\Debug\CL.Plugin.Mail.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Mail\obj\Debug\CL.Plugin.Mail.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Mail\obj\Debug\CL.Plugin.Mail.pdb

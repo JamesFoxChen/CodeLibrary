@@ -1,0 +1,14 @@
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\obj\Debug\CL.Plugin.Qiniu.csprojResolveAssemblyReference.cache
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Plugin.Qiniu.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Plugin.Qiniu.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Framework.Extensions.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Framework.Utils.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\Newtonsoft.Json.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\NPOI.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Framework.Extensions.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\CL.Framework.Utils.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\Newtonsoft.Json.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\bin\Debug\NPOI.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\obj\Debug\CL.Plugin.Qiniu.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Qiniu\obj\Debug\CL.Plugin.Qiniu.pdb

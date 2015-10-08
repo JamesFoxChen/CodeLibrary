@@ -1,0 +1,25 @@
+﻿[Error] @16:21:26_2671 #10 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 102
+[Error] @16:22:01_9781 #22 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 102
+[Error] @16:23:30_3582 #22 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 102
+[Error] @16:25:59_3667 #34 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 102
+[Error] @16:26:39_9900 #32 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 105
+[Error] @16:26:39_9900 #32 CL.Biz.Background.Invoicing.StockInBiz StockIn() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @16:27:26_7247 #40 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 105
+[Error] @16:27:26_7247 #40 CL.Biz.Background.Invoicing.StockInBiz StockIn() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @16:38:39_1272 #65 CL.Biz.Background.Invoicing.StockInBiz StockIn() - 入口操作(StockIn)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.Biz.Background.Invoicing.StockInBiz.StockIn(StockInRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Invoicing\StockInBiz.cs:行号 104
