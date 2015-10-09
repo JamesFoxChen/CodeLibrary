@@ -1,0 +1,13 @@
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.csprojResolveAssemblyReference.cache
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\CL.Plugin.RedisPlugin.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\CL.Plugin.RedisPlugin.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Common.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Interfaces.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Redis.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Text.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Common.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Interfaces.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Redis.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Text.xml
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.dll
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.pdb
