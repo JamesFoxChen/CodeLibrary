@@ -120,6 +120,7 @@
     <Content Include="Pages\Order\OrderList.aspx" />
     <Content Include="Pages\Other\GenerateEntity.aspx" />
     <Content Include="Pages\Other\SwitchDataBase.aspx" />
+    <Content Include="Pages\Other\TestPage.aspx" />
     <Content Include="Pages\Product\BrandEdit.aspx" />
     <Content Include="Pages\Product\BrandList.aspx" />
     <Content Include="Pages\Product\ProductEdit.aspx" />
@@ -3361,6 +3362,13 @@
     </Compile>
     <Compile Include="Pages\Other\SwitchDataBase.aspx.designer.cs">
       <DependentUpon>SwitchDataBase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Other\TestPage.aspx.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Other\TestPage.aspx.designer.cs">
+      <DependentUpon>TestPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Product\BrandEdit.aspx.cs">
       <DependentUpon>BrandEdit.aspx</DependentUpon>

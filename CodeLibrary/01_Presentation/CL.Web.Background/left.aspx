@@ -110,6 +110,7 @@
                     <ul>
                         <li><a href="/Pages/Other/SwitchDataBase.aspx" target="myframe">切换数据库</a></li>
                         <li><a href="/Pages/Other/GenerateEntity.aspx" target="myframe">生成实体类</a></li>
+                        <li><a href="/Pages/Other/TestPage.aspx" target="myframe">测试页面</a></li>
                     </ul>
                 </li>
             </ul>

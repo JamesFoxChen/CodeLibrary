@@ -15,7 +15,7 @@ namespace CL.Test.Demo.Thrid.Redis
         [TestMethod]
         public void 基础测试()
         {
-            RedisBase.Item_Set<string>("aa", DateTime.Now.ToString());
+            RedisBase.Item_Set<string>("a123", DateTime.Now.ToString());
             var value = RedisBase.Item_Get<string>("aa");
         }
     }
