@@ -56,8 +56,8 @@
     <Compile Include="Thrid\Excel\ExcelTest.cs" />
     <Compile Include="Thrid\KuaiDi\KuaiDiTest.cs" />
     <Compile Include="Thrid\Qiniu\QiniuTest.cs" />
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Thrid\Redis\RedisTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Excel\CL.Plugin.Excel.csproj">
@@ -72,12 +72,18 @@
       <Project>{204dfd8a-6eab-4eea-993f-0d7c3321a7b1}</Project>
       <Name>CL.Plugin.Qiniu</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\06_Plugins\CL.Plugin.RedisPlugin\CL.Plugin.RedisPlugin.csproj">
+      <Project>{dc4bb8eb-b37f-4c8f-8120-11c0fd525b8f}</Project>
+      <Name>CL.Plugin.RedisPlugin</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
       <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
       <Name>CL.Framework.Utils</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

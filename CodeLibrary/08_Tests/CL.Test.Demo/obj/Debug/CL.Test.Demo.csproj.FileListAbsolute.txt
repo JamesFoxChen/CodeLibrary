@@ -23,3 +23,14 @@ C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.Qiniu.
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Framework.Extensions.dll
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.Qiniu.pdb
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Framework.Extensions.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Test.Demo.dll.config
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.RedisPlugin.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Redis.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Interfaces.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Text.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Common.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.RedisPlugin.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Redis.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Interfaces.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Text.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Common.xml

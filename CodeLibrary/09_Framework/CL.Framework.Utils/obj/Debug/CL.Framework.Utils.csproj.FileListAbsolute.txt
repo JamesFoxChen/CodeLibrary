@@ -7,3 +7,4 @@ C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Utils\bin\Debug\Newton
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Utils\bin\Debug\NPOI.xml
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Utils\obj\Debug\CL.Framework.Utils.dll
 C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Utils\obj\Debug\CL.Framework.Utils.pdb
+C:\Test\CodeLibrary\CodeLibrary\09_Framework\CL.Framework.Utils\obj\Debug\CL.Framework.Utils.csprojResolveAssemblyReference.cache
