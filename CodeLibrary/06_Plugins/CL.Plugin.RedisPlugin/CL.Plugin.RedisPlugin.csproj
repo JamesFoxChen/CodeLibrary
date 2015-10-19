@@ -53,6 +53,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RedisBase.cs" />
+    <Compile Include="RedisConfig.cs" />
+    <Compile Include="RedisHelper.cs" />
     <Compile Include="RedisKeys.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
