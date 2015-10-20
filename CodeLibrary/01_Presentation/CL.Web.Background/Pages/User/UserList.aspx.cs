@@ -59,14 +59,11 @@ namespace CL.Web.Background.Pages.User
         }
         protected void rpt_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-            string id = e.CommandArgument.ToString();
-
-            var biz = new UserInfoBiz();
+            new UserInfoBiz();
             if (e.CommandName == "UpdateAccountStatus")
             {
                 Response.Write("<script>alert('操作成功！');location.href='UserList.aspx';</script>");
             }
         }
-
     }
 }

@@ -1,0 +1,91 @@
+﻿[Info] @11:42:42_8054 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Opened connection at 2015/10/20 11:42:42 +08:00
+
+[Info] @11:42:42_8134 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AdminInfo','dbo.AdminRightInfo','dbo.BrandInfo','dbo.OrderInfo','dbo.OrderProductInfo','dbo.ProductInfo','dbo.RightInfo','dbo.StockInLog','dbo.UserInfo')
+    OR t.TABLE_NAME = 'EdmMetadata'
+[Info] @11:42:42_8144 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:42_8144 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Executing at 2015/10/20 11:42:42 +08:00
+
+[Info] @11:42:42_8224 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Completed in 7 ms with result: 9
+
+[Info] @11:42:42_8234 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:42_8234 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Closed connection at 2015/10/20 11:42:42 +08:00
+
+[Info] @11:42:42_8744 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Opened connection at 2015/10/20 11:42:42 +08:00
+
+[Info] @11:42:42_9124 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+[Info] @11:42:42_9144 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:42_9154 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- p__linq__0: 'CL.DAL.DataAccess.CLDbContext' (Type = String, Size = 4000)
+
+[Info] @11:42:42_9164 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Executing at 2015/10/20 11:42:42 +08:00
+
+[Info] @11:42:43_0194 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Failed in 101 ms with error: 对象名 'dbo.__MigrationHistory' 无效。
+
+[Info] @11:42:43_0204 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:43_0714 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Closed connection at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_0974 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Opened connection at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_0994 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+    )  AS [GroupBy1]
+[Info] @11:42:43_1014 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:43_1014 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Executing at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_1804 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Failed in 77 ms with error: 对象名 'dbo.__MigrationHistory' 无效。
+
+[Info] @11:42:43_1824 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:43_2284 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Closed connection at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_4424 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Opened connection at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_4694 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - SELECT TOP (1) 
+    [Extent1].[ID] AS [ID], 
+    [Extent1].[BarCode] AS [BarCode], 
+    [Extent1].[BrandID] AS [BrandID], 
+    [Extent1].[Created] AS [Created], 
+    [Extent1].[DataSource] AS [DataSource], 
+    [Extent1].[DefaultPhotoUrl] AS [DefaultPhotoUrl], 
+    [Extent1].[DisplayID] AS [DisplayID], 
+    [Extent1].[Integral] AS [Integral], 
+    [Extent1].[MarketPrice] AS [MarketPrice], 
+    [Extent1].[OrderIndex] AS [OrderIndex], 
+    [Extent1].[PhotoUrl] AS [PhotoUrl], 
+    [Extent1].[ProductDesc] AS [ProductDesc], 
+    [Extent1].[ProductName] AS [ProductName], 
+    [Extent1].[ProductNote] AS [ProductNote], 
+    [Extent1].[SalesPrice] AS [SalesPrice], 
+    [Extent1].[SellCount] AS [SellCount], 
+    [Extent1].[ShowStatus] AS [ShowStatus], 
+    [Extent1].[StorageCount] AS [StorageCount], 
+    [Extent1].[Updated] AS [Updated], 
+    [Extent1].[Weight] AS [Weight]
+    FROM [dbo].[ProductInfo] AS [Extent1]
+    WHERE N'123' = [Extent1].[ID]
+[Info] @11:42:43_4754 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:43_4764 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Executing at 2015/10/20 11:42:43 +08:00
+
+[Info] @11:42:43_4844 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - -- Completed in 7 ms with result: SqlDataReader
+
+[Info] @11:42:43_4854 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - 
+
+[Info] @11:42:43_4874 #10 System.Data.Entity.Infrastructure.Interception.DatabaseLogFormatter Write() - Closed connection at 2015/10/20 11:42:43 +08:00
+

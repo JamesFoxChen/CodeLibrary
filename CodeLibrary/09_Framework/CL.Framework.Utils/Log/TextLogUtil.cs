@@ -146,6 +146,12 @@ namespace CL.Framework.Utils
                 Log(LogLevel.Error, s);
         }
 
+        public static void Sql(string s)
+        {
+            if ((int)logLevel <= (int)LogLevel.Info)
+                Log(LogLevel.Info, s);
+        }
+
         public static void Error(string format, params object[] args)
         {
             if ((int)logLevel <= (int)LogLevel.Error)

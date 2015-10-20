@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using CL.DAL.DataAccess.Common;
 using CL.DAL.DataModel.Entities;
+using CL.Framework.Utils;
 
 namespace CL.DAL.DataAccess
 {
@@ -23,6 +24,11 @@ namespace CL.DAL.DataAccess
         public CLDbContext()
             : base(DBConnection.GetConnectionString())
         {
+            if (false)
+            {
+                //使用参数为字符串的委托即可
+                this.Database.Log = TextLogUtil.Sql;     
+            }
         }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

@@ -25,6 +25,7 @@ namespace CL.Biz.Background.User
                 var response = new GetUserInfoListResponse();
 
                 var db = new CLDbContext();
+
                 var userInfo = db.UserInfo.AsQueryable();
                 if (!string.IsNullOrWhiteSpace(request.UserName))
                 {

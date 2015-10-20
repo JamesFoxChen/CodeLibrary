@@ -26,12 +26,26 @@ namespace CL.Framework.Utils
         }
 
         /// <summary>
-        /// 获取GUID
+        /// 获取32位GUID
         /// </summary>
         /// <returns></returns>
         public static string GetGUID()
         {
             return Guid.NewGuid().ToString("N"); //直接返回字符串类型
+        }
+
+        /// <summary>
+        /// 获取16位GUID
+        /// </summary>
+        /// <returns></returns>
+        public static string GetShortGUID()
+        {
+            long i = 1;
+            foreach (byte b in Guid.NewGuid().ToByteArray())
+            {
+                i *= ((int)b + 1);
+            }
+            return string.Format("{0:x}", i - DateTime.Now.Ticks);
         }
     }
 }

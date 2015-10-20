@@ -2,4 +2,3 @@ C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel.Backgr
 C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel.Background\bin\Debug\CL.CrossDomain.DomainModel.Background.pdb
 C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel.Background\obj\Debug\CL.CrossDomain.DomainModel.Background.dll
 C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel.Background\obj\Debug\CL.CrossDomain.DomainModel.Background.pdb
-C:\Test\CodeLibrary\CodeLibrary\05_CrossDomain\CL.CrossDomain.DomainModel.Background\obj\Debug\CL.CrossDomain.DomainModel.Background.csprojResolveAssemblyReference.cache
