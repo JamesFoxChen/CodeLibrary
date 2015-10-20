@@ -3486,6 +3486,10 @@
       <Project>{9319ae54-a52c-49b6-881e-b19a5529ed62}</Project>
       <Name>CL.CrossDomain.DomainModel.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Excel\CL.Plugin.Excel.csproj">
+      <Project>{d6cf8b0c-0c02-4588-9718-9deeca0ca356}</Project>
+      <Name>CL.Plugin.Excel</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Qiniu\CL.Plugin.Qiniu.csproj">
       <Project>{204dfd8a-6eab-4eea-993f-0d7c3321a7b1}</Project>
       <Name>CL.Plugin.Qiniu</Name>

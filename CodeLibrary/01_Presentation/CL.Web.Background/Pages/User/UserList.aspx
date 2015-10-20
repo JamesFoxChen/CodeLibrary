@@ -26,6 +26,7 @@
                 注册开始时间：<asp:TextBox ID="txtDateStart" runat="server" onClick="WdatePicker({dateFmt:'yyyy-MM-dd',autoPickDate:true})"></asp:TextBox>
                 注册结束时间：<asp:TextBox ID="txtDateEnd" runat="server" onClick="WdatePicker({dateFmt:'yyyy-MM-dd',autoPickDate:true})"></asp:TextBox>
                 &nbsp;<asp:Button ID="btnQuery" runat="server" Text="查询" CssClass="mws-button green" OnClick="btnQuery_Click" />
+                &nbsp;<asp:Button ID="btnExport" runat="server" Text="导出" CssClass="mws-button green" OnClick="btnExport_Click"  />
             </div>
         </div>
 
