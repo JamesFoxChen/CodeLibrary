@@ -82,6 +82,7 @@
                     <a href="#" class="mws-i-24 i-blocks-images firstMenu">用户管理</a>
                     <ul>
                         <li><a href="/Pages/User/UserList.aspx" target="myframe">用户信息</a></li>
+                        <li><a href="/Pages/User/UserMoneyInfo.aspx" target="myframe">用户金额</a></li>
                     </ul>
                 </li>
                 <li>

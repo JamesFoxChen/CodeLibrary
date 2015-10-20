@@ -67,8 +67,7 @@
                                 <td>
                                     <asp:LinkButton ID="lbtn" CommandName="UpdateAccountStatus" OnClientClick="return confirm('您是否确认操作?');" CommandArgument='<%#Eval("ID") %>' runat="server">
                                     <%# Eval("AccountStatus").ToString()=="1"?"冻结":"解冻" %></asp:LinkButton>
-                                    <%--    <asp:LinkButton ID="lbtReset" CommandName="ResetPassword" OnClientClick="return confirm('您是否确认重置密码?');" CommandArgument='<%#Eval("ID") %>' runat="server">
-                                    重置密码</asp:LinkButton>--%>
+                                    <a href="UpdateUserMoney.aspx?ID=<%#Eval("ID")%>">可用金额修改</a>
                                 </td>
                             </tr>
                         </ItemTemplate>

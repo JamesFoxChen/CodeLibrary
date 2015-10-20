@@ -56,8 +56,12 @@
     <Compile Include="Product\Response\BrandListResponse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Request\GetUserInfoListRequest.cs" />
+    <Compile Include="User\Request\UpdateUserMoneyInfoRequest.cs" />
+    <Compile Include="User\Request\UserMoneyInfoRequest.cs" />
     <Compile Include="User\Response\GetRightInfoResponse.cs" />
     <Compile Include="User\Response\GetUserInfoListResponse.cs" />
+    <Compile Include="User\Response\UserMoneyInfoResponse.cs" />
+    <Compile Include="User\Response\UserMoneyLogResponse.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

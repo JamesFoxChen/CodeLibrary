@@ -127,7 +127,9 @@
     <Content Include="Pages\Product\BrandList.aspx" />
     <Content Include="Pages\Product\ProductEdit.aspx" />
     <Content Include="Pages\Product\ProductList.aspx" />
+    <Content Include="Pages\User\UpdateUserMoney.aspx" />
     <Content Include="Pages\User\UserList.aspx" />
+    <Content Include="Pages\User\UserMoneyInfo.aspx" />
     <Content Include="Plugins\colorpicker\colorpicker.css" />
     <Content Include="Plugins\colorpicker\colorpicker.js" />
     <Content Include="Plugins\colorpicker\images\blank.gif" />
@@ -3414,12 +3416,26 @@
     <Compile Include="Pages\Product\ProductList.aspx.designer.cs">
       <DependentUpon>ProductList.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\User\UpdateUserMoney.aspx.cs">
+      <DependentUpon>UpdateUserMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\UpdateUserMoney.aspx.designer.cs">
+      <DependentUpon>UpdateUserMoney.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\User\UserList.aspx.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\User\UserList.aspx.designer.cs">
       <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\User\UserMoneyInfo.aspx.cs">
+      <DependentUpon>UserMoneyInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\User\UserMoneyInfo.aspx.designer.cs">
+      <DependentUpon>UserMoneyInfo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Plugins\ueditor\net\App_Code\Config.cs" />
     <Compile Include="Plugins\ueditor\net\App_Code\ConfigHandler.cs" />

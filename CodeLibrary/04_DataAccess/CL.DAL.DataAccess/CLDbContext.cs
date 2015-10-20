@@ -90,5 +90,9 @@ namespace CL.DAL.DataAccess
         /// 移动端展示轮询图
         /// </summary>
         public DbSet<MPollImages> MPollImages { get; set; }
+
+        public DbSet<UserMoneyInfo> UserMoneyInfo { get; set; }
+
+        public DbSet<UserMoneyLog> UserMoneyLog { get; set; }
     }
 }

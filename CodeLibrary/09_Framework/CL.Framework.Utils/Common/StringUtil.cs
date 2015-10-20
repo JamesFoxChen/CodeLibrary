@@ -47,5 +47,15 @@ namespace CL.Framework.Utils
             }
             return string.Format("{0:x}", i - DateTime.Now.Ticks);
         }
+
+        /// <summary>
+        /// 获取19位纯数字GUID
+        /// </summary>
+        /// <returns></returns>
+        private long GenerateShortDigitGUID()
+        {
+            byte[] buffer = Guid.NewGuid().ToByteArray();
+            return BitConverter.ToInt64(buffer, 0);
+        }
     }
 }
