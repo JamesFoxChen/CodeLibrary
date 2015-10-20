@@ -1,0 +1,10 @@
+﻿[Error] @13:50:09_9438 #6 CL.Biz.Background.Other.MPollImagesBiz AddMPollImage() - 新增移动端展示轮询信息(AddMPollImage)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 CL.Biz.Background.Other.MPollImagesBiz.AddMPollImage(MPollImagesRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Other\MPollImagesBiz.cs:行号 86
+[Error] @13:50:09_9438 #6 CL.Biz.Background.Other.MPollImagesBiz AddMPollImage() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
+[Error] @13:51:04_3969 #8 CL.Biz.Background.Other.MPollImagesBiz AddMPollImage() - 新增移动端展示轮询信息(AddMPollImage)
+Msg：An error occurred while updating the entries. See the inner exception for details.
+Stack：   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 CL.Biz.Background.Other.MPollImagesBiz.AddMPollImage(MPollImagesRequest request) 位置 c:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\Other\MPollImagesBiz.cs:行号 86
+[Error] @13:51:04_3969 #8 CL.Biz.Background.Other.MPollImagesBiz AddMPollImage() - (InnerException):An error occurred while updating the entries. See the inner exception for details.
