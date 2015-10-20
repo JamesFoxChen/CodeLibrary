@@ -80,7 +80,6 @@
             <ul id="menu">
                 <li>
                     <a href="#" class="mws-i-24 i-blocks-images firstMenu">用户管理</a>
-                    <%-- <ul <%= i > 0 ? "class='closed' style='display: none;'" : string.Empty %>>--%>
                     <ul>
                         <li><a href="/Pages/User/UserList.aspx" target="myframe">用户信息</a></li>
                     </ul>
@@ -103,6 +102,12 @@
                     <ul>
                         <li><a href="/Pages/Invoicing/StockIn.aspx" target="myframe">入库操作</a></li>
                         <li><a href="/Pages/Invoicing/StockInLog.aspx" target="myframe">入库流水</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="mws-i-24 i-blocks-images firstMenu">展示配置</a>
+                    <ul>
+                        <li><a href="/Pages/Display/MPollImageList.aspx" target="myframe">移动轮询图</a></li>
                     </ul>
                 </li>
                 <li>

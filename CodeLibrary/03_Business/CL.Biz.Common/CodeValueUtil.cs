@@ -84,6 +84,12 @@ namespace CL.Biz.Common
             return getValueCommon(key, DataSourceType.移动端);
         }
 
+
+        public static string GetMPollImageTypeDesc(int? key)
+        {
+            return getValueCommon(key, MPollImageType.首页);
+        }
+
         /// <summary>
         /// 用户状态描述
         /// </summary>

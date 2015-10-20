@@ -81,8 +81,14 @@ namespace CL.DAL.DataAccess
 
 
         /// <summary>
-        /// 入口流水信息表
+        /// 入库流水信息表
         /// </summary>
         public DbSet<StockInLog> StockInLog { get; set; }
+
+
+        /// <summary>
+        /// 移动端展示轮询图
+        /// </summary>
+        public DbSet<MPollImages> MPollImages { get; set; }
     }
 }

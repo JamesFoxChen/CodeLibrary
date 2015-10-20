@@ -39,12 +39,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base\RequestBase.cs" />
     <Compile Include="Invoicing\Request\StockInRequest.cs" />
     <Compile Include="Invoicing\Request\StockInLogRequest.cs" />
     <Compile Include="Invoicing\Response\StockInLogResponse.cs" />
     <Compile Include="Other\Request\DBEntityGenerateRequest.cs" />
+    <Compile Include="Other\Request\MPollImagesRequest.cs" />
     <Compile Include="Other\Response\DBTablesColumnRepsosne.cs" />
     <Compile Include="Other\Response\DBTablesRepsosne.cs" />
+    <Compile Include="Other\Response\MPollImagesResponse.cs" />
     <Compile Include="Product\Request\ProductInfoRequest.cs" />
     <Compile Include="Product\Request\ProductListRequest.cs" />
     <Compile Include="Product\Request\BrandListRequest.cs" />

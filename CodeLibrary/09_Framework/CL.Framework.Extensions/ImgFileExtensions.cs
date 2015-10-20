@@ -11,7 +11,6 @@ namespace CL.Framework.Extensions
 {
     public class ImgFileExtensions
     {
-
         private static string uploadImageKey = "UploadImages";
 
         /// <summary>
@@ -20,8 +19,40 @@ namespace CL.Framework.Extensions
         /// <param name="fileUpload">上传的图片</param>
         /// <param name="AppSetting">上传地址</param>
         /// <returns>图片虚拟路径</returns>
+        public static string FileImg(HttpPostedFile fileUpload, string appSetting)
+        {
+            Boolean fileOk = false;
+            //取得文件的扩展名,并转换成小写
+            string fileExtension = Path.GetExtension(fileUpload.FileName).ToLower();
+            //验证上传文件是否图片格式
+            fileOk = StringExtensions.IsImage(fileExtension);
+
+            if (fileOk)
+            {
+                //string filepath = DateTime.Now.ToString("yyyyMMdd") + "/";
+
+                if (Directory.Exists(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[appSetting].Trim())) == false)//如果不存在就创建file文件夹
+                {
+                    Directory.CreateDirectory(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[appSetting].Trim()));
+                }
+                string virpath = DateTime.Now.ToString("yyyyMMddHHmmssffff") + fileExtension;//这是存到服务器上的虚拟路径
+                string mappath = HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[appSetting].Trim()) + virpath;//转换成服务器上的物理路径
+                fileUpload.SaveAs(mappath);//保存图片
+                return mappath;
+
+            }
+
+            return "上传失败";
+        }
+
+        /// <summary>
+        /// 图片上传
+        /// </summary>
+        /// <param name="fileUpload">上传的图片</param>
+        /// <param name="AppSetting">上传地址</param>
+        /// <returns>图片虚拟路径</returns>
         public static string FileImg(HttpPostedFile fileUpload)
-    {
+        {
             Boolean fileOk = false;
             //取得文件的扩展名,并转换成小写
             string fileExtension = Path.GetExtension(fileUpload.FileName).ToLower();
@@ -30,8 +61,6 @@ namespace CL.Framework.Extensions
 
             if (fileOk)
             {
-                //string filepath = DateTime.Now.ToString("yyyyMMdd") + "/";
-
                 if (Directory.Exists(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[uploadImageKey].Trim())) == false)//如果不存在就创建file文件夹
                 {
                     Directory.CreateDirectory(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[uploadImageKey].Trim()));
@@ -42,7 +71,7 @@ namespace CL.Framework.Extensions
                 return mappath;
 
             }
-     
+
             return "上传失败";
         }
 
@@ -57,8 +86,6 @@ namespace CL.Framework.Extensions
 
             if (fileOk)
             {
-                //string filepath = DateTime.Now.ToString("yyyyMMdd") + "/";
-
                 if (Directory.Exists(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[uploadImageKey].Trim())) == false)//如果不存在就创建file文件夹
                 {
                     Directory.CreateDirectory(HttpContext.Current.Request.MapPath(ConfigurationSettings.AppSettings[uploadImageKey].Trim()));
@@ -69,7 +96,7 @@ namespace CL.Framework.Extensions
                 return mappath;
 
             }
- 
+
             return "上传失败";
         }
 

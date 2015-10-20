@@ -110,6 +110,24 @@ namespace CL.Plugin.Qiniu
         }
 
         /// <summary>
+        /// 获取图片
+        /// </summary>
+        /// <param name="fileName">文件名</param>
+        /// <returns></returns>
+        public static string GetImage(string fileName, int width, int height)
+        {
+            if (string.IsNullOrWhiteSpace(fileName))
+            {
+                return "";
+            }
+
+            string imageParam = "?imageView2/1/w/{0}/h/{1}/q/30";
+            imageParam = string.Format(imageParam, width, height);
+
+            return QiniuConfig.ImageUrlPredix + fileName + imageParam;
+        }
+
+        /// <summary>
         /// 获取微信产品详细图
         /// </summary>
         /// <param name="fileName">文件名</param>

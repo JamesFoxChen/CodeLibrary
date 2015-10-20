@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Web;
@@ -78,7 +76,6 @@ public static class StringExtensions
     }
     #endregion
 
-
     #region Url编解码
 
     /// <summary>
@@ -101,7 +98,6 @@ public static class StringExtensions
         return HttpUtility.UrlDecode(source);
     }
     #endregion
-
 
     #region 全半角转换
 
@@ -148,7 +144,6 @@ public static class StringExtensions
         return new String(c);
     }
     #endregion
-
 
     #region 其它判断
 
@@ -212,7 +207,6 @@ public static class StringExtensions
         return false;
     }
     #endregion
-
 
     #region 基本类型转换
     #region Int32类型
@@ -469,7 +463,6 @@ public static class StringExtensions
     #endregion
     #endregion
 
-
     #region 生成GUID
     /// <summary>
     /// 转换成Int32类型，转换失败抛异常
@@ -484,7 +477,6 @@ public static class StringExtensions
 
     #endregion
 
-
     #region 获取字符串长度
     public static int Len(this string str)
     {
@@ -497,6 +489,31 @@ public static class StringExtensions
             }
         }
         return c2;
+    }
+    #endregion
+
+    #region 验证是否指定的图片格式
+    /// <summary>
+    /// 验证是否指定的图片格式
+    /// </summary>
+    /// <param name="str"></param>
+    /// <returns></returns>
+    public static bool IsImage(string str)
+    {
+        bool isimage = false;
+        string thestr = str.ToLower();
+        //限定只能上传jpg和gif图片
+        string[] allowExtension = { ".jpg", ".gif", ".bmp", ".png", ".jpeg" };
+        //对上传的文件的类型进行一个个匹对
+        for (int i = 0; i < allowExtension.Length; i++)
+        {
+            if (thestr == allowExtension[i])
+            {
+                isimage = true;
+                break;
+            }
+        }
+        return isimage;
     }
     #endregion
 }

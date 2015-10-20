@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using CL.Biz.Background.Invoicing;
-using CL.Biz.Common;
 using CL.CrossDomain.DomainModel.Background.Invoicing.Request;
-using CL.CrossDomain.DomainModel.Background.Product.Request;
 using CL.Web.Background.Pages.Common;
 
 namespace CL.Web.Background.Pages.Invoicing

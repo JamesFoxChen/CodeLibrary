@@ -28,3 +28,5 @@ C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\obj\Debug\CL.Biz.B
 C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\obj\Debug\CL.Biz.Background.pdb
 C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\bin\Debug\CL.CrossDomain.DomainModel.Common.dll
 C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\bin\Debug\CL.CrossDomain.DomainModel.Common.pdb
+C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\bin\Debug\CL.Plugin.Qiniu.dll
+C:\Test\CodeLibrary\CodeLibrary\03_Business\CL.Biz.Background\bin\Debug\CL.Plugin.Qiniu.pdb

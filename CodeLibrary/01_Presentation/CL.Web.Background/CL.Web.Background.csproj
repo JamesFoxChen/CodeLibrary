@@ -114,6 +114,8 @@
     <Content Include="Left.aspx" />
     <Content Include="Pages\Common\ErrorPage.aspx" />
     <Content Include="Pages\Common\ProductListQuery.aspx" />
+    <Content Include="Pages\Display\MPollImageEdit.aspx" />
+    <Content Include="Pages\Display\MPollImageList.aspx" />
     <Content Include="Pages\Invoicing\StockIn.aspx" />
     <Content Include="Pages\Invoicing\StockInLog.aspx" />
     <Content Include="Pages\Order\OrderDetail.aspx" />
@@ -3320,6 +3322,20 @@
     </Compile>
     <Compile Include="Pages\Common\ProductListQuery.aspx.designer.cs">
       <DependentUpon>ProductListQuery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Display\MPollImageEdit.aspx.cs">
+      <DependentUpon>MPollImageEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Display\MPollImageEdit.aspx.designer.cs">
+      <DependentUpon>MPollImageEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Display\MPollImageList.aspx.cs">
+      <DependentUpon>MPollImageList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Display\MPollImageList.aspx.designer.cs">
+      <DependentUpon>MPollImageList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Invoicing\StockIn.aspx.cs">
       <DependentUpon>StockIn.aspx</DependentUpon>
