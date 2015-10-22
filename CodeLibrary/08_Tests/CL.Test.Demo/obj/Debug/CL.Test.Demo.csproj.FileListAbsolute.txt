@@ -34,3 +34,15 @@ C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Red
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Interfaces.xml
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Text.xml
 C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\ServiceStack.Common.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.Sms.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.DAL.DataAccess.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.DAL.DataModel.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Biz.Common.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\EntityFramework.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Plugin.Sms.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.DAL.DataAccess.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.DAL.DataModel.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\CL.Biz.Common.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\EntityFramework.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.Demo\bin\Debug\EntityFramework.SqlServer.xml

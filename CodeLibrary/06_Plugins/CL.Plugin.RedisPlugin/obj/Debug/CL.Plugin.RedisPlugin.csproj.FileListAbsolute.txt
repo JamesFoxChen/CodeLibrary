@@ -10,4 +10,3 @@ C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\Servi
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\bin\Debug\ServiceStack.Text.xml
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.dll
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.pdb
-C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.RedisPlugin\obj\Debug\CL.Plugin.RedisPlugin.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿[Error] @10:53:00_8427 #10 CL.Plugin.Sms.SmSend SendVerifyCode() - 发送验证码(SendVerifyCode)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.DAL.DataAccess.Common.DBConnection.GetConnectionString() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\Common\DBConnection.cs:行号 16
+   在 CL.DAL.DataAccess.CLDbContext..ctor() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\CLDbContext.cs:行号 24
+   在 CL.Plugin.Sms.SmSend.SendVerifyCode(String mobile) 位置 c:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Sms\SmSend.cs:行号 33
+[Error] @10:53:53_8347 #10 CL.Plugin.Sms.SmSend SendVerifyCode() - 发送验证码(SendVerifyCode)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.DAL.DataAccess.Common.DBConnection.GetConnectionString() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\Common\DBConnection.cs:行号 16
+   在 CL.DAL.DataAccess.CLDbContext..ctor() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\CLDbContext.cs:行号 24
+   在 CL.Plugin.Sms.SmSend.SendVerifyCode(String mobile) 位置 c:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Sms\SmSend.cs:行号 33
+[Error] @10:54:27_3796 #10 CL.Plugin.Sms.SmSend SendVerifyCode() - 发送验证码(SendVerifyCode)
+Msg：未将对象引用设置到对象的实例。
+Stack：   在 CL.DAL.DataAccess.Common.DBConnection.GetConnectionString() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\Common\DBConnection.cs:行号 16
+   在 CL.DAL.DataAccess.CLDbContext..ctor() 位置 c:\Test\CodeLibrary\CodeLibrary\04_DataAccess\CL.DAL.DataAccess\CLDbContext.cs:行号 24
+   在 CL.Plugin.Sms.SmSend.SendVerifyCode(String mobile) 位置 c:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Sms\SmSend.cs:行号 33

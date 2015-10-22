@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{066CEAF0-5C95-487A-8475-61DAF27742E1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CL.Plugin.Sms</RootNamespace>
+    <AssemblyName>CL.Plugin.Sms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CCPRestSDK.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SmsConstant.cs" />
+    <Compile Include="SmSend.cs" />
+    <Compile Include="SmsMngInner.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\03_Business\CL.Biz.Common\CL.Biz.Common.csproj">
+      <Project>{feb98053-5aae-41e7-8626-61d7c5e56e92}</Project>
+      <Name>CL.Biz.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04_DataAccess\CL.DAL.DataAccess\CL.DAL.DataAccess.csproj">
+      <Project>{72732299-7817-46b4-95df-0dec070c21dc}</Project>
+      <Name>CL.DAL.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04_DataAccess\CL.DAL.DataModel\CL.DAL.DataModel.csproj">
+      <Project>{a4cc6e19-d98f-4f04-88e6-2ca05ff1e1e6}</Project>
+      <Name>CL.DAL.DataModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
+      <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
+      <Name>CL.Framework.Utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

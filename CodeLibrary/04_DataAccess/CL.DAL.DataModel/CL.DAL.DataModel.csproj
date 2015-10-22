@@ -52,6 +52,7 @@
     <Compile Include="Entities\RightInfo.cs" />
     <Compile Include="Entities\StockInLog.cs" />
     <Compile Include="Entities\UserInfo.cs" />
+    <Compile Include="Entities\UserVerifyCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -94,5 +94,7 @@ namespace CL.DAL.DataAccess
         public DbSet<UserMoneyInfo> UserMoneyInfo { get; set; }
 
         public DbSet<UserMoneyLog> UserMoneyLog { get; set; }
+
+        public DbSet<SmsVerifyCode> SmsVerifyCode { get; set; }
     }
 }

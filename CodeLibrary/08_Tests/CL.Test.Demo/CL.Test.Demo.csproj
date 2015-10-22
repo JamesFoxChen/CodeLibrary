@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Web" />
@@ -58,6 +61,7 @@
     <Compile Include="Thrid\Qiniu\QiniuTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Thrid\Redis\RedisTest.cs" />
+    <Compile Include="Thrid\Sms\SmsTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Excel\CL.Plugin.Excel.csproj">
@@ -75,6 +79,10 @@
     <ProjectReference Include="..\..\06_Plugins\CL.Plugin.RedisPlugin\CL.Plugin.RedisPlugin.csproj">
       <Project>{dc4bb8eb-b37f-4c8f-8120-11c0fd525b8f}</Project>
       <Name>CL.Plugin.RedisPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\06_Plugins\CL.Plugin.Sms\CL.Plugin.Sms.csproj">
+      <Project>{066ceaf0-5c95-487a-8475-61daf27742e1}</Project>
+      <Name>CL.Plugin.Sms</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\09_Framework\CL.Framework.Utils\CL.Framework.Utils.csproj">
       <Project>{03849015-fdd8-4101-a203-9456e7794e09}</Project>
