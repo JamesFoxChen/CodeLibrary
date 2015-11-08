@@ -10,3 +10,4 @@ C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Excel\bin\Debug\NPOI.OOXML.
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Excel\bin\Debug\NPOI.OpenXml4Net.xml
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Excel\obj\Debug\CL.Plugin.Excel.dll
 C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Excel\obj\Debug\CL.Plugin.Excel.pdb
+C:\Test\CodeLibrary\CodeLibrary\06_Plugins\CL.Plugin.Excel\obj\Debug\CL.Plugin.Excel.csprojResolveAssemblyReference.cache
