@@ -1,0 +1,16 @@
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\CL.Test.DapperNet.exe.config
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\CL.Test.DapperNet.exe
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\CL.Test.DapperNet.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\CL.Framework.Utils.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\Dapper.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\NPOI.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\Newtonsoft.Json.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\CL.Framework.Utils.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\Dapper.pdb
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\Dapper.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\NPOI.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\bin\Debug\Newtonsoft.Json.xml
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\obj\Debug\CL.Test.DapperNet.csprojResolveAssemblyReference.cache
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\obj\Debug\CL.Test.DapperNet.exe
+C:\Test\CodeLibrary\CodeLibrary\08_Tests\CL.Test.DapperNet\obj\Debug\CL.Test.DapperNet.pdb
